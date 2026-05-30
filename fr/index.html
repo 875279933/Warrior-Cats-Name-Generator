@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#2c3e2f">
+<title>Générateur de Noms de Chats Guerriers — Créateur de Noms de Clan Gratuit</title>
+<meta name="description" content="Générez des noms de chats guerriers uniques avec des visuels personnalisés. Noms gratuits conformes à l'univers pour TonnerreClan, RivièreClan, OmbreClan et plus.">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<link rel="canonical" href="https://warriorcatsnamegenerator.net/fr/">
+<link rel="alternate" hreflang="en" href="https://warriorcatsnamegenerator.net/">
+<link rel="alternate" hreflang="de" href="https://warriorcatsnamegenerator.net/de/">
+<link rel="alternate" hreflang="fr" href="https://warriorcatsnamegenerator.net/fr/">
+<link rel="alternate" hreflang="it" href="https://warriorcatsnamegenerator.net/it/">
+<link rel="alternate" hreflang="pt" href="https://warriorcatsnamegenerator.net/pt/">
+<link rel="alternate" hreflang="es" href="https://warriorcatsnamegenerator.net/es/">
+<link rel="alternate" hreflang="ru" href="https://warriorcatsnamegenerator.net/ru/">
+<link rel="alternate" hreflang="x-default" href="https://warriorcatsnamegenerator.net/">
+<link rel="icon" href="../images/favicon.ico">
+<meta property="og:title" content="Générateur de Noms de Chats Guerriers — Créateur de Noms de Clan Gratuit">
+<meta property="og:description" content="Générez des noms de chats guerriers uniques avec des visuels personnalisés. Noms gratuits conformes à l'univers pour TonnerreClan, RivièreClan, OmbreClan et plus.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://warriorcatsnamegenerator.net/fr/">
+<meta property="og:image" content="https://warriorcatsnamegenerator.net/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Huit chats guerriers avec différentes couleurs de pelage et motifs générés par l'outil de noms">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Générateur de Noms de Chats Guerriers — Créateur de Noms de Clan Gratuit">
+<meta name="twitter:description" content="Générez des noms de chats guerriers uniques avec des visuels personnalisés. Noms gratuits conformes à l'univers pour TonnerreClan, RivièreClan, OmbreClan et plus.">
+<meta name="twitter:image" content="https://warriorcatsnamegenerator.net/og-image.jpg">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[{"@type":"WebApplication","name":"Générateur de Noms de Chats Guerriers","description":"Outil gratuit en ligne qui génère des noms de chats guerriers authentiques avec des représentations visuelles uniques incluant la couleur du pelage, la couleur des yeux et les motifs.","applicationCategory":"GameApplication","operatingSystem":"Any","url":"https://warriorcatsnamegenerator.net/fr/","browserRequirements":"Requires JavaScript","creator":{"@type":"Organization","name":"Générateur de Noms de Chats Guerriers"},"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Comment fonctionne ce générateur de noms?","acceptedAnswer":{"@type":"Answer","text":"Ce Générateur de Noms de Chats Guerriers associe des préfixes et suffixes authentiques des livres Guerriers pour construire des noms conformes à l'univers. Chaque clic produit huit chats avec des couleurs de pelage, couleurs d'yeux et motifs aléatoires. Il puise dans plus de 40 préfixes naturels et plus de 30 suffixes liés aux compétences, traits et traditions du Clan."}},{"@type":"Question","name":"Qu'est-ce qui rend un nom de chat guerrier authentique?","acceptedAnswer":{"@type":"Answer","text":"Un nom authentique suit les règles des livres: un préfixe décrivant l'apparence ou la nature plus un suffixe qui marque le rang ou la compétence. Les mots modernes, objets manufacturés et concepts abstraits n'ont pas leur place dans le naming des Clans."}},{"@type":"Question","name":"Puis-je utiliser ces noms pour de la fanfiction ou du jeu de rôle?","acceptedAnswer":{"@type":"Answer","text":"Absolument. Chaque nom est une combinaison originale de l'algorithme, libre d'utilisation pour la fanfiction, les forums RPG, les artworks ou la création de personnages. Ils sont conçus pour sonner naturellement dans n'importe quel cadre de Clan."}},{"@type":"Question","name":"Quels sont les différents rangs dans les noms de chats guerriers?","acceptedAnswer":{"@type":"Answer","text":"Les guerriers gagnent leur nom complet lors d'une cérémonie du Clan, échangeant le suffixe -apatte d'apprenti contre un qui correspond à leur personnalité. Les chats medicine tendent à recevoir des suffixes mystiques comme -marecage ou -lune. Les aînés gardent le nom qu'ils ont gagné au fil des saisons de service."}}]}
+</script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a href="#generator" class="skip-link">Aller au générateur</a>
+<div class="container">
+<header>
+<h1>Générateur de Noms de Chats Guerriers<span class="subtitle">Crée ton propre chat de Clan avec un nom et un look qui correspond à l'univers</span></h1>
+</header>
+<main>
+<div class="cat-generator-grid" id="generator">
+<div class="generator-card">
+<div class="name-area">
+<div class="cat-role warrior">Guerrier</div>
+<div class="name-row">
+<div class="cat-name" id="catNameDisplay1">Étoile de Feu</div>
+<button class="copy-btn" id="copyBtn1" onclick="copyCatInfo(1)" aria-label="Copier le nom et info d'Étoile de Feu">❤️ Copier</button>
+</div>
+</div>
+<div class="visual-panel">
+<div class="canvas-container">
+<canvas id="catCanvas1" width="180" height="180" aria-label="Étoile de Feu chat guerrier au pelage rouge-orangé brillant et yeux verts" role="img"></canvas>
+<div class="image-description" id="imageAltText1">
+<span class="description-text">Étoile de Feu est un chat guerrier au pelage rouge-orangé brillant, yeux verts vifs et pelage uni lisse.</span>
+</div>
+</div>
+</div>
+</div>
+
+<div class="generator-card">
+<div class="name-area">
+<div class="cat-role medicine">Chat Médecin</div>
+<div class="name-row">
+<div class="cat-name" id="catNameDisplay2">Feuille Tachetée</div>
+<button class="copy-btn" id="copyBtn2" onclick="copyCatInfo(2)" aria-label="Copier le nom et info de Feuille Tachetée">❤️ Copier</button>
+</div>
+</div>
+<div class="visual-panel">
+<div class="canvas-container">
+<canvas id="catCanvas2" width="180" height="180" aria-label="Feuille Tachetée chat médecin au pelage tortoise pâle et yeux ambrés" role="img"></canvas>
+<div class="image-description" id="imageAltText2">
+<span class="description-text">Feuille Tachetée est un chat médecin au pelage tortoise pâle, yeux ambrés chauds et petites taches sombres.</span>
+</div>
+</div>
+</div>
+</div>
+
+<div class="generator-card">
+<div class="name-area">
+<div class="cat-role apprentice">Apprenti</div>
+<div class="name-row">
+<div class="cat-name" id="catNameDisplay3">Griffe de Ronce</div>
+<button class="copy-btn" id="copyBtn3" onclick="copyCatInfo(3)" aria-label="Copier le nom et info de Griffe de Ronce">❤️ Copier</button>
+</div>
+</div>
+<div class="visual-panel">
+<div class="canvas-container">
+<canvas id="catCanvas3" width="180" height="180" aria-label="Griffe de Ronce chat apprenti au pelage brun foncé tigré et yeux ambrés" role="img"></canvas>
+<div class="image-description" id="imageAltText3">
+<span class="description-text">Griffe de Ronce est un apprenti au pelage brun foncé tigré, yeux ambrés et rayures sombres prononcées.</span>
+</div>
+</div>
+</div>
+</div>
+
+<div class="generator-card">
+<div class="name-area">
+<div class="cat-role elder">Aîné</div>
+<div class="name-row">
+<div class="cat-name" id="catNameDisplay4">Œil Unique</div>
+<button class="copy-btn" id="copyBtn4" onclick="copyCatInfo(4)" aria-label="Copier le nom et info d'Œil Unique">❤️ Copier</button>
+</div>
+</div>
+<div class="visual-panel">
+<div class="canvas-container">
+<canvas id="catCanvas4" width="180" height="180" aria-label="Œil Unique chat aîné au pelage gris pâle et œil bleu voilé" role="img"></canvas>
+<div class="image-description" id="imageAltText4">
+<span class="description-text">Œil Unique est un aîné au pelage gris pâle, un œil bleu voilé et pelage uni lisse.</span>
+</div>
+</div>
+</div>
+</div>
+
+<div class="generator-card">
+<div class="name-area">
+<div class="cat-role kit">Bébé</div>
+<div class="name-row">
+<div class="cat-name" id="catNameDisplay5">Bébé de Mousse</div>
+<button class="copy-btn" id="copyBtn5" onclick="copyCatInfo(5)" aria-label="Copier le nom et info de Bébé de Mousse">❤️ Copier</button>
+</div>
+</div>
+<div class="visual-panel">
+<div class="canvas-container">
+<canvas id="catCanvas5" width="180" height="180" aria-label="Bébé de Mousse chaton au pelage fauve doux et yeux ambrés brillants" role="img"></canvas>
+<div class="image-description" id="imageAltText5">
+<span class="description-text">Bébé de Mousse est un petit chaton au pelage fauve doux, yeux ambrés brillants et pelage tacheté duveteux.</span>
+</div>
+</div>
+</div>
+</div>
+
+<div class="generator-card">
+<div class="name-area">
+<div class="cat-role leader">Chef</div>
+<div class="name-row">
+<div class="cat-name" id="catNameDisplay6">Étoile Bleue</div>
+<button class="copy-btn" id="copyBtn6" onclick="copyCatInfo(6)" aria-label="Copier le nom et info d'Étoile Bleue">❤️ Copier</button>
+</div>
+</div>
+<div class="visual-panel">
+<div class="canvas-container">
+<canvas id="catCanvas6" width="180" height="180" aria-label="Étoile Bleue chef avec pelage gris-bleu et yeux bleu glacial" role="img"></canvas>
+<div class="image-description" id="imageAltText6">
+<span class="description-text">Étoile Bleue est un chef noble au pelage gris-bleu, yeux bleu glacial perçants et pelage rayé élégant.</span>
+</div>
+</div>
+</div>
+</div>
+
+<div class="generator-card">
+<div class="name-area">
+<div class="cat-role loner">Solitaire/Renégat</div>
+<div class="name-row">
+<div class="cat-name" id="catNameDisplay7">Sol</div>
+<button class="copy-btn" id="copyBtn7" onclick="copyCatInfo(7)" aria-label="Copier le nom et info de Sol">❤️ Copier</button>
+</div>
+</div>
+<div class="visual-panel">
+<div class="canvas-container">
+<canvas id="catCanvas7" width="180" height="180" aria-label="Sol solitaire mystérieux au pelage tortoise foncé et yeux vert pâle" role="img"></canvas>
+<div class="image-description" id="imageAltText7">
+<span class="description-text">Sol est un solitaire mystérieux au pelage tortoise foncé, yeux vert pâle et pelage uni bigarré.</span>
+</div>
+</div>
+</div>
+</div>
+
+<div class="generator-card">
+<div class="name-area">
+<div class="cat-role queen">Reine</div>
+<div class="name-row">
+<div class="cat-name" id="catNameDisplay8">Fleur Dorée</div>
+<button class="copy-btn" id="copyBtn8" onclick="copyCatInfo(8)" aria-label="Copier le nom et info de Fleur Dorée">❤️ Copier</button>
+</div>
+</div>
+<div class="visual-panel">
+<div class="canvas-container">
+<canvas id="catCanvas8" width="180" height="180" aria-label="Fleur Dorée reine au pelage doré pâle et yeux ambrés doux" role="img"></canvas>
+<div class="image-description" id="imageAltText8">
+<span class="description-text">Fleur Dorée est une reine douce au pelage doré pâle, yeux ambrés doux et pelage uni chaud.</span>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<div class="generate-wrapper">
+<button class="generate-btn" id="generateBtn" aria-label="Générer de nouveaux chats guerriers">Générer de Nouveaux Chats</button>
+</div>
+
+<div class="share-card">
+<h2>Partage Tes Chats de Clan</h2>
+<div class="share-buttons">
+<a class="share-btn x" href="https://twitter.com/intent/tweet?text=Découvrez%20ces%20noms%20de%20chats%20guerriers%20que%20j'ai%20générés!&url=https://warriorcatsnamegenerator.net/fr/" target="_blank" rel="noopener noreferrer" aria-label="Partager sur X">X</a>
+<a class="share-btn facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://warriorcatsnamegenerator.net/fr/" target="_blank" rel="noopener noreferrer" aria-label="Partager sur Facebook">Facebook</a>
+<a class="share-btn pinterest" href="https://pinterest.com/pin/create/button/?url=https://warriorcatsnamegenerator.net/fr/&description=Générateur%20de%20Noms%20de%20Chats%20Guerriers" target="_blank" rel="noopener noreferrer" aria-label="Partager sur Pinterest">Pinterest</a>
+<a class="share-btn reddit" href="https://www.reddit.com/submit?url=https://warriorcatsnamegenerator.net/fr/&title=Générateur%20de%20Noms%20de%20Chats%20Guerriers" target="_blank" rel="noopener noreferrer" aria-label="Partager sur Reddit">Reddit</a>
+<button class="share-btn copy" id="copyLinkBtn" aria-label="Copier le lien">Copier le Lien</button>
+</div>
+</div>
+
+<section class="info-section" id="about-generator">
+<article class="info-card">
+<h2>Comment Fonctionne Ce Générateur de Noms</h2>
+<p>Les noms de chats guerriers suivent une règle simple: un <strong>préfixe</strong> tiré de la nature ou de l'apparence, associé à un <strong>suffixe</strong> qui signale le rang ou la compétence. Cet outil puise dans plus de <strong>40 préfixes</strong> et <strong>30 suffixes</strong> pour créer des noms comme <em>Griffe de Lion</em>, <em>Plume d'Épervier</em> ou <em>Aube d'Ambre</em> — le genre de noms que vous entendriez réellement à un Rassemblement.</p>
+<p>Les apprentis portent <em>-apatte</em> jusqu'à ce que leur chef leur accorde un nom de guerrier. Cette cérémonie est un grand événement dans la vie du Clan, et le générateur suit la même logique.</p>
+</article>
+<article class="info-card">
+<h3>Traits Visuels & Esprit du Clan</h3>
+<p>Chaque chat reçoit une <strong>couleur de pelage aléatoire</strong>, <strong>nuance d'yeux</strong> et <strong>motif de pelage</strong> — rayé, tacheté ou uni. Cette combinaison donne à votre personnage un look que vous pouvez visualiser immédiatement, que vous dessiniez du fanart ou écriviez une scène. Cliquez à nouveau sur le bouton et vous obtiendrez un chat totally différent.</p>
+<p>Les pelages suggèrent souvent les forces d'un chat: les torties sombres se faufilent dans les ombres, les roux brillants mènent la charge.</p>
+</article>
+<article class="info-card">
+<h3>Ce Que Vous Pouvez En Faire</h3>
+<ul>
+<li>Fanfiction et histoires originales de Clan</li>
+<li>Personnages pour RPG et jeux de rôle sur forums</li>
+<li>Références artistiques ou cartes de guerrier personnalisées</li>
+<li>Donner un nom avec de l'esprit guerrier à un vrai chat</li>
+</ul>
+<p>Conçu pour les fans de <strong>Guerriers par Erin Hunter</strong>.</p>
+<div class="internal-links">
+<a href="#naming-guide">Guide de Nommage</a>
+<a href="#clan-culture">Explorer la Culture du Clan</a>
+<a href="#faq">Lire la FAQ</a>
+</div>
+</article>
+</section>
+
+<section id="naming-guide" class="anchor-section">
+<h2>Tirer le Meilleur de Ce Générateur de Noms</h2>
+<p>Cliquez sur <strong>Générer de Nouveaux Chats</strong> et vous obtiendrez huit noms immédiatement — un par rang: Guerrier, Chat Médecin, Apprenti, Aîné, Bébé, Chef, Solitaire et Reine. Chaque élément (préfixe, suffixe, couleur de pelage, motif, nuance d'yeux) est lancé indépendamment, donc les combinaisons s'accumulent rapidement. Cliquez autant de fois que vous le souhaitez; vous ne verrez pas le même chat deux fois.</p>
+<p>Sous chaque image se trouve une brève description qui sert également de texte alternatif, afin que les lecteurs d'écran et les moteurs de recherche puissent capter l'apparence du chat.</p>
+<h3>Comprendre les Traditions de Nommage des Clans</h3>
+<p>Les chats de Clan gagnent leurs noms par cérémonie. Les êtres commencent avec <em>-bébé</em>, les apprentis portent <em>-apatte</em>, et les guerriers reçoivent un suffixe qui reflète qui ils sont. Les chats médecine tendent à obtenir des terminaisons mystiques comme <em>-marecage</em> ou <em>-lune</em>. Les aînés gardent le nom qu'ils ont gagné au fil des saisons de service.</p>
+</section>
+
+<section id="clan-culture" class="anchor-section">
+<h2>Pourquoi Les Noms Authentiques de Chats Guerriers Sont Importants</h2>
+<p>Beaucoup d'outils de noms aléatoires crachent des mots modernes ou humains qui sonnent mal dans la forêt. Ce Générateur de Noms de Chats Guerriers respecte la <strong>structure de nommage canonique</strong> — les préfixes comme <em>Ronce, Fougère, Suie, Macul, Houx</em> et les suffixes comme <em>cœur, rayure, plume, bond, ombre</em> viennent directement des livres. Chaque nom sonne comme s'il appartenait à TonnerreClan, RivièreClan ou Clan du Vent.</p>
+<p>Pas d'objets modernes, pas de mots inventés — juste des termes ancrés dans la nature, comme les Clans nommeraient les choses.</p>
+<h3>Catégories de Noms de Clan</h3>
+<h4>Noms de TonnerreClan</h4>
+<p>Les chats de TonnerreClan portent des noms liés au feu, à la foudre et aux créatures de la forêt — pensez à <em>Étoile de Feu, Vol d'Écureuil, Griffe de Ronce</em>.</p>
+<h4>Noms de RivièreClan</h4>
+<p>Les noms de RivièreClan coulent avec des images d'eau: <em>Étoile de Brume, Étoile de Léopard, Whisker de Roseau</em>.</p>
+<h4>Noms d'OmbreClan</h4>
+<p>Les guerriers d'OmbreClan obtiennent des noms qui suggèrent l'obscurité et la furtivité: <em>Étoile Noire, Étoile du Tigre, Pelage Russet</em>.</p>
+<h4>Noms de Clan du Vent</h4>
+<p>Les noms de Clan du Vent résonnent sur la lande ouverte et la vitesse: <em>Grande Étoile, Plume de Corbeau, Pelage de Brise</em>.</p>
+</section>
+
+<section class="faq-section anchor-section" id="faq">
+<h2>Questions Fréquemment Posées</h2>
+<div class="faq-item">
+<button class="faq-toggle" aria-expanded="false" aria-controls="faq1">
+<span>Comment fonctionne ce générateur de noms?</span>
+<span class="faq-icon">+</span>
+</button>
+<div class="faq-answer" id="faq1" style="display:none">
+<p>Ce Générateur de Noms de Chats Guerriers associe des préfixes et suffixes authentiques des livres Guerriers pour construire des noms conformes à l'univers. Chaque clic produit huit chats avec des couleurs de pelage, couleurs d'yeux et motifs aléatoires. Il puise dans plus de 40 préfixes naturels et plus de 30 suffixes liés aux compétences, traits et traditions du Clan.</p>
+</div>
+</div>
+<div class="faq-item">
+<button class="faq-toggle" aria-expanded="false" aria-controls="faq2">
+<span>Qu'est-ce qui rend un nom de chat guerrier authentique?</span>
+<span class="faq-icon">+</span>
+</button>
+<div class="faq-answer" id="faq2" style="display:none">
+<p>Un nom authentique suit les règles des livres: un préfixe décrivant l'apparence ou la nature (Ronce, Givre, Ambre) plus un suffixe qui marque le rang ou la compétence (-griffe, -cœur, -apatte pour les apprentis). Les mots modernes, objets manufacturés et concepts abstraits n'ont pas leur place dans le naming des Clans.</p>
+</div>
+</div>
+<div class="faq-item">
+<button class="faq-toggle" aria-expanded="false" aria-controls="faq3">
+<span>Puis-je utiliser ces noms pour de la fanfiction ou du jeu de rôle?</span>
+<span class="faq-icon">+</span>
+</button>
+<div class="faq-answer" id="faq3" style="display:none">
+<p>Absolument. Chaque nom est une combinaison originale de l'algorithme — libre d'utilisation pour la fanfiction, les forums RPG, les artworks ou la création de personnages. Ils sont conçus pour sonner naturellement dans n'importe quel cadre de Clan.</p>
+</div>
+</div>
+<div class="faq-item">
+<button class="faq-toggle" aria-expanded="false" aria-controls="faq4">
+<span>Quels sont les différents rangs dans les noms de chats guerriers?</span>
+<span class="faq-icon">+</span>
+</button>
+<div class="faq-answer" id="faq4" style="display:none">
+<p>Les guerriers gagnent leur nom complet lors d'une cérémonie du Clan, échangeant le suffixe -apatte d'apprenti contre un qui correspond à leur personnalité. Les chats médecine tendent à recevoir des suffixes mystiques comme -marecage ou -lune. Les aînés gardent le nom qu'ils ont gagné, et les êtres portent -bébé jusqu'à ce qu'ils soient assez vieux pour commencer l'entraînement.</p>
+</div>
+</div>
+<div class="faq-item">
+<button class="faq-toggle" aria-expanded="false" aria-controls="faq5">
+<span>Pourquoi chaque chat vient-il avec un visuel?</span>
+<span class="faq-icon">+</span>
+</button>
+<div class="faq-answer" id="faq5" style="display:none">
+<p>Le visuel vous permet de visualiser le personnage immédiatement. Chaque chat reçoit une couleur de pelage, une nuance d'yeux et un motif aléatoires — rayé, tacheté ou uni. Pratique pour les artistes, écrivains et rôlistes qui veulent un concept de personnage complet en quelques secondes.</p>
+</div>
+</div>
+</section>
+
+<section class="languages-section">
+<h2 class="languages-title">Autres Langues</h2>
+<div class="languages-grid">
+<a href="../" class="lang-card" title="English">
+<span class="lang-flag">🇬🇧</span>
+English
+</a>
+<a href="../de/" class="lang-card" title="Deutsch">
+<span class="lang-flag">🇩🇪</span>
+Deutsch
+</a>
+<a href="../it/" class="lang-card" title="Italiano">
+<span class="lang-flag">🇮🇹</span>
+Italiano
+</a>
+<a href="../pt/" class="lang-card" title="Português">
+<span class="lang-flag">🇵🇹</span>
+Português
+</a>
+<a href="../es/" class="lang-card" title="Español">
+<span class="lang-flag">🇪🇸</span>
+Español
+</a>
+<a href="../ru/" class="lang-card" title="Русский">
+<span class="lang-flag">🇷🇺</span>
+Русский
+</a>
+</div>
+</section>
+<noscript>
+<p>Ce générateur de noms nécessite JavaScript pour fonctionner. Veuillez activer JavaScript dans votre navigateur pour générer des noms uniques de chats de Clan avec des visuels correspondants pour TonnerreClan, RivièreClan, OmbreClan, Clan du Vent et plus.</p>
+</noscript>
+</main>
+<footer>
+<p>Générateur de Noms de Chats Guerriers — outil de fan, non affilié à HarperCollins. Tous les noms générés sont des combinaisons originales.</p>
+<nav class="internal-links" aria-label="Navigation du pied de page">
+<a href="./">Essayez le Générateur de Noms</a>
+<a href="about.html">À Propos</a>
+<a href="contact.html">Contact</a>
+<a href="privacy.html">Politique de Confidentialité</a>
+<a href="terms.html">Conditions d'Utilisation</a>
+<a href="cookies.html">Politique de Cookies</a>
+<a href="disclaimer.html">Avertissement</a>
+</nav>
+</footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

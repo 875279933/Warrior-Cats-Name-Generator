@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#2c3e2f">
+<title>Warrior Cats Namen Generator — Kostenloser Clan-Namen Generator</title>
+<meta name="description" content="Erstelle einzigartige Kriegerkatzen-Namen mit individuellen Visuals. Kostenlose, lore-konforme Namen für DonnerClan, FlussClan, SchattenClan und mehr.">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<link rel="canonical" href="https://warriorcatsnamegenerator.net/de/">
+<link rel="alternate" hreflang="en" href="https://warriorcatsnamegenerator.net/">
+<link rel="alternate" hreflang="de" href="https://warriorcatsnamegenerator.net/de/">
+<link rel="alternate" hreflang="fr" href="https://warriorcatsnamegenerator.net/fr/">
+<link rel="alternate" hreflang="it" href="https://warriorcatsnamegenerator.net/it/">
+<link rel="alternate" hreflang="pt" href="https://warriorcatsnamegenerator.net/pt/">
+<link rel="alternate" hreflang="es" href="https://warriorcatsnamegenerator.net/es/">
+<link rel="alternate" hreflang="ru" href="https://warriorcatsnamegenerator.net/ru/">
+<link rel="alternate" hreflang="x-default" href="https://warriorcatsnamegenerator.net/">
+<link rel="icon" href="../images/favicon.ico">
+<meta property="og:title" content="Warrior Cats Namen Generator — Kostenloser Clan-Namen Generator">
+<meta property="og:description" content="Erstelle einzigartige Kriegerkatzen-Namen mit individuellen Visuals. Kostenlose, lore-konforme Namen für DonnerClan, FlussClan, SchattenClan und mehr.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://warriorcatsnamegenerator.net/de/">
+<meta property="og:image" content="https://warriorcatsnamegenerator.net/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Acht Kriegerkatzen mit verschiedenen Fellfarben und Mustern, die vom Namenstool generiert wurden">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Warrior Cats Namen Generator — Kostenloser Clan-Namen Generator">
+<meta name="twitter:description" content="Erstelle einzigartige Kriegerkatzen-Namen mit individuellen Visuals. Kostenlose, lore-konforme Namen für DonnerClan, FlussClan, SchattenClan und mehr.">
+<meta name="twitter:image" content="https://warriorcatsnamegenerator.net/og-image.jpg">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[{"@type":"WebApplication","name":"Warrior Cats Namen Generator","description":"Kostenloses Online-Tool, das authentische Kriegerkatzen-Namen mit einzigartigen visuellen Darstellungen generiert, einschließlich Fellfarbe, Augenfarbe und Fellmuster.","applicationCategory":"GameApplication","operatingSystem":"Any","url":"https://warriorcatsnamegenerator.net/de/","browserRequirements":"Requires JavaScript","creator":{"@type":"Organization","name":"Warrior Cats Namen Generator"},"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Wie funktioniert dieser Namen Generator?","acceptedAnswer":{"@type":"Answer","text":"Dieser Warrior Cats Namen Generator kombiniert authentische Präfixe und Suffixe aus den Warriors-Büchern, um lore-konforme Namen zu erstellen. Jeder Klick erzeugt acht Katzen mit zufälligen Fellfarben, Augenfarben und Fellmustern. Er verwendet über 40 naturbasierte Präfixe und über 30 Suffixe für Fähigkeiten, Eigenschaften und Clan-Traditionen."}},{"@type":"Question","name":"Was macht einen Kriegerkatzen-Namen authentisch?","acceptedAnswer":{"@type":"Answer","text":"Ein authentischer Name folgt den Regeln der Bücher: Ein Präfix, das Aussehen oder Natur beschreibt, plus ein Suffix, das Rang oder Fähigkeit markiert. Moderne Wörter, von Menschen gemachte Objekte und abstrakte Konzepte gehören nicht in die Clan-Namensgebung."}},{"@type":"Question","name":"Kann ich diese Namen für Fanfiction oder Rollenspiel verwenden?","acceptedAnswer":{"@type":"Answer","text":"Aber natürlich. Jeder Name ist eine ursprüngliche Kombination vom Algorithmus, frei verwendbar für Fanfiction, RPG-Foren, Kunstwerke oder Charaktererstellung. Sie sind gebaut, um in jeder Clan-Umgebung natürlich zu klingen."}},{"@type":"Question","name":"Welche verschiedenen Ränge gibt es in Kriegerkatzen-Namen?","acceptedAnswer":{"@type":"Answer","text":"Krieger erhalten ihren vollständigen Namen bei einer Clan-Zeremonie, wobei das -pfote Lehrlings-Suffix gegen eines ausgetauscht wird, das ihrer Persönlichkeit entspricht. Medizinkatzen erhalten oft mystische Suffixe wie -teich oder -mond. Älteste behalten den Namen, den sie sich über Jahreszeiten des Dienstes verdient haben."}}]}
+</script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a href="#generator" class="skip-link">Zum Generator springen</a>
+<div class="container">
+<header>
+<h1>Warrior Cats Namen Generator<span class="subtitle">Erstelle deine eigene Clan-Katze mit einem Namen und Aussehen, das zur Lore passt</span></h1>
+</header>
+<main>
+<div class="cat-generator-grid" id="generator">
+<div class="generator-card">
+<div class="name-area">
+<div class="cat-role warrior">Krieger</div>
+<div class="name-row">
+<div class="cat-name" id="catNameDisplay1">Flammenstern</div>
+<button class="copy-btn" id="copyBtn1" onclick="copyCatInfo(1)" aria-label="Kopiere Flammenstern Name und Info">❤️ Kopieren</button>
+</div>
+</div>
+<div class="visual-panel">
+<div class="canvas-container">
+<canvas id="catCanvas1" width="180" height="180" aria-label="Flammenstern Kriegerkatze mit leuchtend rotem Fell und grünen Augen" role="img"></canvas>
+<div class="image-description" id="imageAltText1">
+<span class="description-text">Flammenstern ist eine Kriegerkatze mit leuchtend rotem Fell, lebhaften grünen Augen und einem glatten einfarbigen Fell.</span>
+</div>
+</div>
+</div>
+</div>
+
+<div class="generator-card">
+<div class="name-area">
+<div class="cat-role medicine">Medizinkatze</div>
+<div class="name-row">
+<div class="cat-name" id="catNameDisplay2">Fleckblatt</div>
+<button class="copy-btn" id="copyBtn2" onclick="copyCatInfo(2)" aria-label="Kopiere Fleckblatt Name und Info">❤️ Kopieren</button>
+</div>
+</div>
+<div class="visual-panel">
+<div class="canvas-container">
+<canvas id="catCanvas2" width="180" height="180" aria-label="Fleckblatt Medizinkatze mit blassem Schildpattfell und bernsteinfarbenen Augen" role="img"></canvas>
+<div class="image-description" id="imageAltText2">
+<span class="description-text">Fleckblatt ist eine Medizinkatze mit blassem Schildpattfell, warmen bernsteinfarbenen Augen und kleinen dunklen Flecken.</span>
+</div>
+</div>
+</div>
+</div>
+
+<div class="generator-card">
+<div class="name-area">
+<div class="cat-role apprentice">Lehrling</div>
+<div class="name-row">
+<div class="cat-name" id="catNameDisplay3">Distelpfote</div>
+<button class="copy-btn" id="copyBtn3" onclick="copyCatInfo(3)" aria-label="Kopiere Distelpfote Name und Info">❤️ Kopieren</button>
+</div>
+</div>
+<div class="visual-panel">
+<div class="canvas-container">
+<canvas id="catCanvas3" width="180" height="180" aria-label="Distelpfote Lehrlingskatze mit dunkelbraunem gestreiftem Fell und bernsteinfarbenen Augen" role="img"></canvas>
+<div class="image-description" id="imageAltText3">
+<span class="description-text">Distelpfote ist ein Lehrling mit dunkelbraunem gestreiftem Fell, bernsteinfarbenen Augen und ausgeprägten dunklen Streifen.</span>
+</div>
+</div>
+</div>
+</div>
+
+<div class="generator-card">
+<div class="name-area">
+<div class="cat-role elder">Älteste</div>
+<div class="name-row">
+<div class="cat-name" id="catNameDisplay4">Einauge</div>
+<button class="copy-btn" id="copyBtn4" onclick="copyCatInfo(4)" aria-label="Kopiere Einauge Name und Info">❤️ Kopieren</button>
+</div>
+</div>
+<div class="visual-panel">
+<div class="canvas-container">
+<canvas id="catCanvas4" width="180" height="180" aria-label="Einauge Ältestenkatze mit blassem grauem Fell und trübem blauem Auge" role="img"></canvas>
+<div class="image-description" id="imageAltText4">
+<span class="description-text">Einauge ist eine Älteste mit blassem grauem Fell, einem trüben blauen Auge und einem glatten einfarbigen Fell.</span>
+</div>
+</div>
+</div>
+</div>
+
+<div class="generator-card">
+<div class="name-area">
+<div class="cat-role kit">Junges</div>
+<div class="name-row">
+<div class="cat-name" id="catNameDisplay5">Moosjunges</div>
+<button class="copy-btn" id="copyBtn5" onclick="copyCatInfo(5)" aria-label="Kopiere Moosjunges Name und Info">❤️ Kopieren</button>
+</div>
+</div>
+<div class="visual-panel">
+<div class="canvas-container">
+<canvas id="catCanvas5" width="180" height="180" aria-label="Moosjunges Junges mit weichem beigefarbenem Fell und leuchtenden bernsteinfarbenen Augen" role="img"></canvas>
+<div class="image-description" id="imageAltText5">
+<span class="description-text">Moosjunges ist ein kleines Junges mit weichem beigefarbenem Fell, leuchtenden bernsteinfarbenen Augen und einem flauschigen gefleckten Fell.</span>
+</div>
+</div>
+</div>
+</div>
+
+<div class="generator-card">
+<div class="name-area">
+<div class="cat-role leader">Anführer</div>
+<div class="name-row">
+<div class="cat-name" id="catNameDisplay6">Blaustern</div>
+<button class="copy-btn" id="copyBtn6" onclick="copyCatInfo(6)" aria-label="Kopiere Blausttern Name und Info">❤️ Kopieren</button>
+</div>
+</div>
+<div class="visual-panel">
+<div class="canvas-container">
+<canvas id="catCanvas6" width="180" height="180" aria-label="Blaustern Anführerin mit blaugrauem Fell und eisblauen Augen" role="img"></canvas>
+<div class="image-description" id="imageAltText6">
+<span class="description-text">Blaustern ist eine edle Anführerin mit blaugrauem Fell, durchdringenden eisblauen Augen und einem eleganten gestreiften Fell.</span>
+</div>
+</div>
+</div>
+</div>
+
+<div class="generator-card">
+<div class="name-area">
+<div class="cat-role loner">Einzgänger/Rowdy</div>
+<div class="name-row">
+<div class="cat-name" id="catNameDisplay7">Sol</div>
+<button class="copy-btn" id="copyBtn7" onclick="copyCatInfo(7)" aria-label="Kopiere Sol Name und Info">❤️ Kopieren</button>
+</div>
+</div>
+<div class="visual-panel">
+<div class="canvas-container">
+<canvas id="catCanvas7" width="180" height="180" aria-label="Sol Einzelgänger mit dunklem Schildpattfell und blassgrünen Augen" role="img"></canvas>
+<div class="image-description" id="imageAltText7">
+<span class="description-text">Sol ist eine geheimnisvolle Einzelgängerin mit dunklem Schildpattfell, blassgrünen Augen und einem gemischten einfarbigen Fell.</span>
+</div>
+</div>
+</div>
+</div>
+
+<div class="generator-card">
+<div class="name-area">
+<div class="cat-role queen">Königin</div>
+<div class="name-row">
+<div class="cat-name" id="catNameDisplay8">Goldblume</div>
+<button class="copy-btn" id="copyBtn8" onclick="copyCatInfo(8)" aria-label="Kopiere Goldblume Name und Info">❤️ Kopieren</button>
+</div>
+</div>
+<div class="visual-panel">
+<div class="canvas-container">
+<canvas id="catCanvas8" width="180" height="180" aria-label="Goldblume Königin mit blassem goldenem Fell und sanften bernsteinfarbenen Augen" role="img"></canvas>
+<div class="image-description" id="imageAltText8">
+<span class="description-text">Goldblume ist eine sanfte Königin mit blassem goldenem Fell, sanften bernsteinfarbenen Augen und einem warmen einfarbigen Fell.</span>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<div class="generate-wrapper">
+<button class="generate-btn" id="generateBtn" aria-label="Neue Kriegerkatzen generieren">Neue Katzen Generieren</button>
+</div>
+
+<div class="share-card">
+<h2>Teile deine Clan Katzen</h2>
+<div class="share-buttons">
+<a class="share-btn x" href="https://twitter.com/intent/tweet?text=Schau%20dir%20diese%20Kriegerkatzen-Namen%20an%2C%20die%20ich%20generiert%20habe!&url=https://warriorcatsnamegenerator.net/de/" target="_blank" rel="noopener noreferrer" aria-label="Auf X teilen">X</a>
+<a class="share-btn facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://warriorcatsnamegenerator.net/de/" target="_blank" rel="noopener noreferrer" aria-label="Auf Facebook teilen">Facebook</a>
+<a class="share-btn pinterest" href="https://pinterest.com/pin/create/button/?url=https://warriorcatsnamegenerator.net/de/&description=Warrior%20Cats%20Namen%20Generator" target="_blank" rel="noopener noreferrer" aria-label="Auf Pinterest teilen">Pinterest</a>
+<a class="share-btn reddit" href="https://www.reddit.com/submit?url=https://warriorcatsnamegenerator.net/de/&title=Warrior%20Cats%20Namen%20Generator" target="_blank" rel="noopener noreferrer" aria-label="Auf Reddit teilen">Reddit</a>
+<button class="share-btn copy" id="copyLinkBtn" aria-label="Link kopieren">Link Kopieren</button>
+</div>
+</div>
+
+<section class="info-section" id="about-generator">
+<article class="info-card">
+<h2>Wie Dieser Namen Generator Funktioniert</h2>
+<p>Kriegerkatzen-Namen folgen einer einfachen Regel: ein <strong>Präfix</strong> aus der Natur oder dem Aussehen gezogen, gepaart mit einem <strong>Suffix</strong>, das Rang oder Fähigkeit signalisiert. Dieses Tool verwendet über <strong>40 Präfixe</strong> und <strong>30 Suffixe</strong>, um Namen wie <em>Löwenkralle</em>, <em>Habichtfeder</em> oder <em>Bernsteindämmerung</em> zu erstellen — die Art von Namen, die du tatsächlich auf einem Treffen hören würdest.</p>
+<p>Lehrlinge tragen <em>-pfote</em>, bis ihr Anführer ihnen einen Kriegernamen gibt. Diese Zeremonie ist ein wichtiges Ereignis im Clan-Leben, und der Generator folgt derselben Logik.</p>
+</article>
+<article class="info-card">
+<h3>Visuelle Merkmale & Clan-Geist</h3>
+<p>Jede Katze erhält eine <strong>zufällige Fellfarbe</strong>, <strong>Augenfarbe</strong> und <strong>Fellmuster</strong> — gestreift, gefleckt oder einfarbig. Diese Kombination gibt deiner Figur ein Aussehen, das du dir sofort vorstellen kannst, ob du Fanart zeichnest oder eine Szene schreibst. Klicke erneut auf den Button und du bekommst eine völlig andere Katze.</p>
+<p>Felle deuten oft auf die Stärken einer Katze hin: Dunkle Schildpattkatzen bewegen sich durch Schatten, leuchtend rote führen diecharge an.</p>
+</article>
+<article class="info-card">
+<h3>Wofür Du Es Verwenden Kannst</h3>
+<ul>
+<li>Fanfiction und originale Clan-Geschichten</li>
+<li>RPG- und Foren-Rollenspiel-Charaktere</li>
+<li>Kunstreferenzen oder eigene Kriegerkarten</li>
+<li>Einer echten Katze einen Namen mit Kriegergeist geben</li>
+</ul>
+<p>Gemacht für Fans von <strong>Warriors von Erin Hunter</strong>.</p>
+<div class="internal-links">
+<a href="#naming-guide">Namensleitfaden</a>
+<a href="#clan-culture">Clan-Kultur Entdecken</a>
+<a href="#faq">Häufige Fragen</a>
+</div>
+</article>
+</section>
+
+<section id="naming-guide" class="anchor-section">
+<h2>Das Beste Aus Diesem Namen Generator Herausholen</h2>
+<p>Klicke auf <strong>Neue Katzen Generieren</strong> und du bekommst sofort acht Namen — einen pro Rang: Krieger, Medizinkatze, Lehrling, Älteste, Junges, Anführer, Einzelgänger und Königin. Jedes Teil (Präfix, Suffix, Fellfarbe, Muster, Augenfarbe) wird unabhängig gewürfelt, also stapeln sich die Kombinationen schnell. Klicke so oft du willst; du wirst keine Katze zweimal sehen.</p>
+<p>Unter jedem Bild befindet sich eine kurze Beschreibung, die gleichzeitig als Alt-Text dient, damit Bildschirmleser und Suchmaschinen das Aussehen der Katze erfassen können.</p>
+<h3>Die Clan-Namens-traditionen Verstehen</h3>
+<p>Clan-Katzen erhalten ihre Namen durch Zeremonie. Junges beginnen mit <em>-junges</em>, Lehrlinge tragen <em>-pfote</em>, und Krieger erhalten ein Suffix, das widerspiegelt, wer sie sind. Medizinkatzen bekommen oft mystische Endungen wie <em>-teich</em> oder <em>-mond</em>. Älteste behalten den Namen, den sie sich über Jahreszeiten des Dienstes verdient haben.</p>
+</section>
+
+<section id="clan-culture" class="anchor-section">
+<h2>Warum Authentische Kriegerkatzen-Namen Wichtig Sind</h2>
+<p>Viele zufällige Namen-Tools spucken moderne oder menschlich klingende Wörter aus, die sich im Wald falsch anfühlen. Dieser Warrior Cats Namen Generator hält sich an die <strong>kanonische Namensstruktur</strong> — Präfixe wie <em>Distel, Farn, Ruß, Tupfen, Stechpalme</em> und Suffixe wie <em>herz, streifen, feder, sprung, schatten</em> kommen direkt aus den Büchern. Jeder Name klingt, als gehöre er in DonnerClan, FlussClan oder WindClan.</p>
+<p>Keine modernen Objekte, keine erfundenen Wörter — nur naturverbundene Begriffe, so wie die Clans Dinge benennen würden.</p>
+<h3>Clan-Namen-Kategorien</h3>
+<h4>DonnerClan Namen</h4>
+<p>DonnerClan-Katzen tragen Namen, die mit Feuer, Blitz und Waldkreaturen verbunden sind — denke an <em>Flammenstern, Eichhörnchenflug, Distelkralle</em>.</p>
+<h4>FlussClan Namen</h4>
+<p>FlussClan-Namen fließen mit Wasserbildern: <em>Nebelstern, Leopardenstern, Schilfwhisker</em>.</p>
+<h4>SchattenClan Namen</h4>
+<p>SchattenClan-Krieger bekommen Namen, die Dunkelheit und Heimlichkeit suggerieren: <em>Schwarzstern, Tigerstern, Rostfell</em>.</p>
+<h4>WindClan Namen</h4>
+<p>WindClan-Namen hallen die offene Moorlandschaft und Geschwindigkeit wider: <em>Großstern, Rabenfeder, Windfell</em>.</p>
+</section>
+
+<section class="faq-section anchor-section" id="faq">
+<h2>Häufig Gestellte Fragen</h2>
+<div class="faq-item">
+<button class="faq-toggle" aria-expanded="false" aria-controls="faq1">
+<span>Wie funktioniert dieser Namen Generator?</span>
+<span class="faq-icon">+</span>
+</button>
+<div class="faq-answer" id="faq1" style="display:none">
+<p>Dieser Warrior Cats Namen Generator kombiniert authentische Präfixe und Suffixe aus den Warriors-Büchern, um lore-konforme Namen zu erstellen. Jeder Klick erzeugt acht Katzen mit zufälligen Fellfarben, Augenfarben und Fellmustern. Er verwendet über 40 naturbasierte Präfixe und über 30 Suffixe für Fähigkeiten, Eigenschaften und Clan-Traditionen.</p>
+</div>
+</div>
+<div class="faq-item">
+<button class="faq-toggle" aria-expanded="false" aria-controls="faq2">
+<span>Was macht einen Kriegerkatzen-Namen authentisch?</span>
+<span class="faq-icon">+</span>
+</button>
+<div class="faq-answer" id="faq2" style="display:none">
+<p>Ein authentischer Name folgt den Regeln der Bücher: Ein Präfix, das Aussehen oder Natur beschreibt (Distel, Frost, Bernstein), plus ein Suffix, das Rang oder Fähigkeit markiert (-kralle, -herz, -pfote für Lehrlinge). Moderne Wörter, von Menschen gemachte Objekte und abstrakte Konzepte gehören nicht in die Clan-Namensgebung.</p>
+</div>
+</div>
+<div class="faq-item">
+<button class="faq-toggle" aria-expanded="false" aria-controls="faq3">
+<span>Kann ich diese Namen für Fanfiction oder Rollenspiel verwenden?</span>
+<span class="faq-icon">+</span>
+</button>
+<div class="faq-answer" id="faq3" style="display:none">
+<p>Aber natürlich. Jeder Name ist eine ursprüngliche Kombination vom Algorithmus — frei verwendbar für Fanfiction, RPG-Foren, Kunstwerke oder Charaktererstellung. Sie sind gebaut, um in jeder Clan-Umgebung natürlich zu klingen.</p>
+</div>
+</div>
+<div class="faq-item">
+<button class="faq-toggle" aria-expanded="false" aria-controls="faq4">
+<span>Welche verschiedenen Ränge gibt es in Kriegerkatzen-Namen?</span>
+<span class="faq-icon">+</span>
+</button>
+<div class="faq-answer" id="faq4" style="display:none">
+<p>Krieger erhalten ihren vollständigen Namen bei einer Clan-Zeremonie, wobei das -pfote Lehrlings-Suffix gegen eines ausgetauscht wird, das ihrer Persönlichkeit entspricht. Medizinkatzen erhalten oft mystische Suffixe wie -teich oder -mond. Älteste behalten den Namen, den sie sich verdient haben, und Junges tragen -junges, bis sie alt genug sind, um mit der Ausbildung zu beginnen.</p>
+</div>
+</div>
+<div class="faq-item">
+<button class="faq-toggle" aria-expanded="false" aria-controls="faq5">
+<span>Warum kommt jede Katze mit einem Visual?</span>
+<span class="faq-icon">+</span>
+</button>
+<div class="faq-answer" id="faq5" style="display:none">
+<p>Das Visual позволяет вам сразу представить персонажа. Каждая кошка получает случайный цвет шерсти, оттенок глаз и узор — полосатый, пятнистый или сплошной. Это удобно для художников, писателей и ролевиков, которые хотят получить полную концепцию персонажа за секунды.</p>
+</div>
+</div>
+</section>
+
+<section class="languages-section">
+<h2 class="languages-title">Andere Sprachen</h2>
+<div class="languages-grid">
+<a href="../" class="lang-card" title="English">
+<span class="lang-flag">🇬🇧</span>
+English
+</a>
+<a href="../fr/" class="lang-card" title="Français">
+<span class="lang-flag">🇫🇷</span>
+Français
+</a>
+<a href="../it/" class="lang-card" title="Italiano">
+<span class="lang-flag">🇮🇹</span>
+Italiano
+</a>
+<a href="../pt/" class="lang-card" title="Português">
+<span class="lang-flag">🇵🇹</span>
+Português
+</a>
+<a href="../es/" class="lang-card" title="Español">
+<span class="lang-flag">🇪🇸</span>
+Español
+</a>
+<a href="../ru/" class="lang-card" title="Русский">
+<span class="lang-flag">🇷🇺</span>
+Русский
+</a>
+</div>
+</section>
+<noscript>
+<p>Dieser Namen Generator benötigt JavaScript zum Ausführen. Bitte aktiviere JavaScript in deinem Browser, um einzigartige Clan-Katzen-Namen mit passenden Visuals für DonnerClan, FlussClan, SchattenClan, WindClan und mehr zu generieren.</p>
+</noscript>
+</main>
+<footer>
+<p>Warrior Cats Namen Generator — Fan-Tool, nicht verbunden mit HarperCollins. Alle generierten Namen sind ursprüngliche Kombinationen.</p>
+<nav class="internal-links" aria-label="Fußzeilennavigation">
+<a href="./">Probiere den Namen Generator</a>
+<a href="about.html">Über Uns</a>
+<a href="contact.html">Kontakt</a>
+<a href="privacy.html">Datenschutzrichtlinie</a>
+<a href="terms.html">Nutzungsbedingungen</a>
+<a href="cookies.html">Cookie-Richtlinie</a>
+<a href="disclaimer.html">Haftungsausschluss</a>
+</nav>
+</footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

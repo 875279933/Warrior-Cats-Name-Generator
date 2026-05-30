@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#2c3e2f">
+<title>Generador de Nombres de Gatos Guerreros — Creador de Nombres de Clan Gratuito</title>
+<meta name="description" content="Genera nombres únicos de gatos guerreros con visuales personalizados. Nombres gratuitos fieles al universo para TruenoClan, RíoClan, SombraClan y más.">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<link rel="canonical" href="https://warriorcatsnamegenerator.net/es/">
+<link rel="alternate" hreflang="en" href="https://warriorcatsnamegenerator.net/">
+<link rel="alternate" hreflang="de" href="https://warriorcatsnamegenerator.net/de/">
+<link rel="alternate" hreflang="fr" href="https://warriorcatsnamegenerator.net/fr/">
+<link rel="alternate" hreflang="it" href="https://warriorcatsnamegenerator.net/it/">
+<link rel="alternate" hreflang="pt" href="https://warriorcatsnamegenerator.net/pt/">
+<link rel="alternate" hreflang="es" href="https://warriorcatsnamegenerator.net/es/">
+<link rel="alternate" hreflang="ru" href="https://warriorcatsnamegenerator.net/ru/">
+<link rel="alternate" hreflang="x-default" href="https://warriorcatsnamegenerator.net/">
+<link rel="icon" href="../images/favicon.ico">
+<meta property="og:title" content="Generador de Nombres de Gatos Guerreros — Creador de Nombres de Clan Gratuito">
+<meta property="og:description" content="Genera nombres únicos de gatos guerreros con visuales personalizados. Nombres gratuitos fieles al universo para TruenoClan, RíoClan, SombraClan y más.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://warriorcatsnamegenerator.net/es/">
+<meta property="og:image" content="https://warriorcatsnamegenerator.net/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Ocho gatos guerreros con diferentes colores de pelaje y patrones generados por la herramienta de nombres">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Generador de Nombres de Gatos Guerreros — Creador de Nombres de Clan Gratuito">
+<meta name="twitter:description" content="Genera nombres únicos de gatos guerreros con visuales personalizados. Nombres gratuitos fieles al universo para TruenoClan, RíoClan, SombraClan y más.">
+<meta name="twitter:image" content="https://warriorcatsnamegenerator.net/og-image.jpg">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[{"@type":"WebApplication","name":"Generador de Nombres de Gatos Guerreros","description":"Herramienta gratuita en línea que genera nombres auténticos de gatos guerreros con representaciones visuales únicas que incluyen color de pelaje, color de ojos y patrón del pelaje.","applicationCategory":"GameApplication","operatingSystem":"Any","url":"https://warriorcatsnamegenerator.net/es/","browserRequirements":"Requires JavaScript","creator":{"@type":"Organization","name":"Generador de Nombres de Gatos Guerreros"},"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Cómo funciona este generador de nombres?","acceptedAnswer":{"@type":"Answer","text":"Este Generador de Nombres de Gatos Guerreros combina prefijos y sufijos auténticos de los libros de Warriors para crear nombres fieles al universo. Cada clic produce ocho gatos con colores de pelaje, colores de ojos y patrones de pelaje aleatorios. Toma de más de 40 prefijos naturales y más de 30 sufijos relacionados con habilidades, rasgos y tradiciones del Clan."}},{"@type":"Question","name":"¿Qué hace que un nombre de gato guerrero sea auténtico?","acceptedAnswer":{"@type":"Answer","text":"Un nombre auténtico sigue las reglas de los libros: un prefijo que describe la apariencia o naturaleza, más un sufijo que marca rango o habilidad. Palabras modernas, objetos hechos por humanos y conceptos abstractos no pertenecen a la denominación de los Clanes."}},{"@type":"Question","name":"¿Puedo usar estos nombres para fanfiction o juegos de rol?","acceptedAnswer":{"@type":"Answer","text":"Absolutamente. Cada nombre es una combinación original del algoritmo, libre para usar en fanfiction, foros de RPG, arte o creación de personajes. Están diseñados para sonar naturales en cualquier entorno de Clan."}},{"@type":"Question","name":"¿Cuáles son los diferentes rangos en los nombres de gatos guerreros?","acceptedAnswer":{"@type":"Answer","text":"Los guerreros ganan su nombre completo en una ceremonia del Clan, intercambiando el sufijo -garra de aprendiz por uno que corresponda a su personalidad. Los gatos de medicina tienden a recibir sufijos místicos como -estanque o -luna. Los ancianos mantienen el nombre que ganan a lo largo de las estaciones de servicio."}}]}
+</script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a href="#generator" class="skip-link">Ir al generador</a>
+<div class="container">
+<header>
+<h1>Generador de Nombres de Gatos Guerreros<span class="subtitle">Crea tu propio gato de Clan con un nombre y apariencia que encaje en el universo</span></h1>
+</header>
+<main>
+<div class="cat-generator-grid" id="generator">
+<div class="generator-card">
+<div class="name-area">
+<div class="cat-role warrior">Guerrero</div>
+<div class="name-row">
+<div class="cat-name" id="catNameDisplay1">Estrella de Fuego</div>
+<button class="copy-btn" id="copyBtn1" onclick="copyCatInfo(1)" aria-label="Copiar nombre e info de Estrella de Fuego">❤️ Copiar</button>
+</div>
+</div>
+<div class="visual-panel">
+<div class="canvas-container">
+<canvas id="catCanvas1" width="180" height="180" aria-label="Estrella de Fuego gato guerrero con pelaje rojo-naranja brillante y ojos verdes" role="img"></canvas>
+<div class="image-description" id="imageAltText1">
+<span class="description-text">Estrella de Fuego es un gato guerrero con pelaje rojo-naranja brillante, ojos verdes vívidos y pelaje sólido liso.</span>
+</div>
+</div>
+</div>
+</div>
+
+<div class="generator-card">
+<div class="name-area">
+<div class="cat-role medicine">Gato de Medicina</div>
+<div class="name-row">
+<div class="cat-name" id="catNameDisplay2">Hoja Moteada</div>
+<button class="copy-btn" id="copyBtn2" onclick="copyCatInfo(2)" aria-label="Copiar nombre e info de Hoja Moteada">❤️ Copiar</button>
+</div>
+</div>
+<div class="visual-panel">
+<div class="canvas-container">
+<canvas id="catCanvas2" width="180" height="180" aria-label="Hoja Moteada gato de medicina con pelaje carey pálido y ojos ámbar" role="img"></canvas>
+<div class="image-description" id="imageAltText2">
+<span class="description-text">Hoja Moteada es un gato de medicina con pelaje carey pálido, ojos ámbar cálidos y pequeñas manchas oscuras.</span>
+</div>
+</div>
+</div>
+</div>
+
+<div class="generator-card">
+<div class="name-area">
+<div class="cat-role apprentice">Aprendiz</div>
+<div class="name-row">
+<div class="cat-name" id="catNameDisplay3">Garra de Zarza</div>
+<button class="copy-btn" id="copyBtn3" onclick="copyCatInfo(3)" aria-label="Copiar nombre e info de Garra de Zarza">❤️ Copiar</button>
+</div>
+</div>
+<div class="visual-panel">
+<div class="canvas-container">
+<canvas id="catCanvas3" width="180" height="180" aria-label="Garra de Zarza gato aprendiz con pelaje marrón oscuro atigrado y ojos ámbar" role="img"></canvas>
+<div class="image-description" id="imageAltText3">
+<span class="description-text">Garra de Zarza es un aprendiz con pelaje marrón oscuro atigrado, ojos ámbar y rayas oscuras marcadas.</span>
+</div>
+</div>
+</div>
+</div>
+
+<div class="generator-card">
+<div class="name-area">
+<div class="cat-role elder">Anciano</div>
+<div class="name-row">
+<div class="cat-name" id="catNameDisplay4">Ojo Único</div>
+<button class="copy-btn" id="copyBtn4" onclick="copyCatInfo(4)" aria-label="Copiar nombre e info de Ojo Único">❤️ Copiar</button>
+</div>
+</div>
+<div class="visual-panel">
+<div class="canvas-container">
+<canvas id="catCanvas4" width="180" height="180" aria-label="Ojo Único gato anciano con pelaje gris pálido y ojo azul turbio" role="img"></canvas>
+<div class="image-description" id="imageAltText4">
+<span class="description-text">Ojo Único es un anciano con pelaje gris pálido, un ojo azul turbio y pelaje sólido liso.</span>
+</div>
+</div>
+</div>
+</div>
+
+<div class="generator-card">
+<div class="name-area">
+<div class="cat-role kit">Cachorro</div>
+<div class="name-row">
+<div class="cat-name" id="catNameDisplay5">Cachorro de Musgo</div>
+<button class="copy-btn" id="copyBtn5" onclick="copyCatInfo(5)" aria-label="Copiar nombre e info de Cachorro de Musgo">❤️ Copiar</button>
+</div>
+</div>
+<div class="visual-panel">
+<div class="canvas-container">
+<canvas id="catCanvas5" width="180" height="180" aria-label="Cachorro de Musgo gatito con pelaje beige suave y ojos ámbar brillantes" role="img"></canvas>
+<div class="image-description" id="imageAltText5">
+<span class="description-text">Cachorro de Musgo es un pequeño cachorro con pelaje beige suave, ojos ámbar brillantes y pelaje manchado esponjoso.</span>
+</div>
+</div>
+</div>
+</div>
+
+<div class="generator-card">
+<div class="name-area">
+<div class="cat-role leader">Líder</div>
+<div class="name-row">
+<div class="cat-name" id="catNameDisplay6">Estrella Azul</div>
+<button class="copy-btn" id="copyBtn6" onclick="copyCatInfo(6)" aria-label="Copiar nombre e info de Estrella Azul">❤️ Copiar</button>
+</div>
+</div>
+<div class="visual-panel">
+<div class="canvas-container">
+<canvas id="catCanvas6" width="180" height="180" aria-label="Estrella Azul líder con pelaje gris-azulado y ojos azul glacial" role="img"></canvas>
+<div class="image-description" id="imageAltText6">
+<span class="description-text">Estrella Azul es una líder noble con pelaje gris-azulado, ojos azul glacial penetrantes y pelaje rayado elegante.</span>
+</div>
+</div>
+</div>
+</div>
+
+<div class="generator-card">
+<div class="name-area">
+<div class="cat-role loner">Solitario/Renegado</div>
+<div class="name-row">
+<div class="cat-name" id="catNameDisplay7">Sol</div>
+<button class="copy-btn" id="copyBtn7" onclick="copyCatInfo(7)" aria-label="Copiar nombre e info de Sol">❤️ Copiar</button>
+</div>
+</div>
+<div class="visual-panel">
+<div class="canvas-container">
+<canvas id="catCanvas7" width="180" height="180" aria-label="Sol solitario misterioso con pelaje carey oscuro y ojos verde pálido" role="img"></canvas>
+<div class="image-description" id="imageAltText7">
+<span class="description-text">Sol es un solitario misterioso con pelaje carey oscuro, ojos verde pálido y pelaje sólido moteado.</span>
+</div>
+</div>
+</div>
+</div>
+
+<div class="generator-card">
+<div class="name-area">
+<div class="cat-role queen">Reina</div>
+<div class="name-row">
+<div class="cat-name" id="catNameDisplay8">Flor Dorada</div>
+<button class="copy-btn" id="copyBtn8" onclick="copyCatInfo(8)" aria-label="Copiar nombre e info de Flor Dorada">❤️ Copiar</button>
+</div>
+</div>
+<div class="visual-panel">
+<div class="canvas-container">
+<canvas id="catCanvas8" width="180" height="180" aria-label="Flor Dorada reina con pelaje dorado pálido y ojos ámbar suaves" role="img"></canvas>
+<div class="image-description" id="imageAltText8">
+<span class="description-text">Flor Dorada es una reina gentil con pelaje dorado pálido, ojos ámbar suaves y pelaje sólido cálido.</span>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<div class="generate-wrapper">
+<button class="generate-btn" id="generateBtn" aria-label="Generar nuevos gatos guerreros">Generar Nuevos Gatos</button>
+</div>
+
+<div class="share-card">
+<h2>Comparte Tus Gatos del Clan</h2>
+<div class="share-buttons">
+<a class="share-btn x" href="https://twitter.com/intent/tweet?text=¡Mira%20estos%20nombres%20de%20gatos%20guerreros%20que%20generé!&url=https://warriorcatsnamegenerator.net/es/" target="_blank" rel="noopener noreferrer" aria-label="Compartir en X">X</a>
+<a class="share-btn facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://warriorcatsnamegenerator.net/es/" target="_blank" rel="noopener noreferrer" aria-label="Compartir en Facebook">Facebook</a>
+<a class="share-btn pinterest" href="https://pinterest.com/pin/create/button/?url=https://warriorcatsnamegenerator.net/es/&description=Generador%20de%20Nombres%20de%20Gatos%20Guerreros" target="_blank" rel="noopener noreferrer" aria-label="Compartir en Pinterest">Pinterest</a>
+<a class="share-btn reddit" href="https://www.reddit.com/submit?url=https://warriorcatsnamegenerator.net/es/&title=Generador%20de%20Nombres%20de%20Gatos%20Guerreros" target="_blank" rel="noopener noreferrer" aria-label="Compartir en Reddit">Reddit</a>
+<button class="share-btn copy" id="copyLinkBtn" aria-label="Copiar enlace">Copiar Enlace</button>
+</div>
+</div>
+
+<section class="info-section" id="about-generator">
+<article class="info-card">
+<h2>Cómo Funciona Este Generador de Nombres</h2>
+<p>Los nombres de gatos guerreros siguen una regla simple: un <strong>prefijo</strong> tomado de la naturaleza o apariencia, emparejado con un <strong>sufijo</strong> que señala rango o habilidad. Esta herramienta toma de más de <strong>40 prefijos</strong> y <strong>30 sufijos</strong> para crear nombres como <em>Garra de León</em>, <em>Pluma de Halcón</em> o <em>Amanecer de Ámbar</em> — el tipo de nombres que realmente escucharías en una Reunión.</p>
+<p>Los aprendices llevan <em>-garra</em> hasta que su líder les conceda un nombre de guerrero. Esta ceremonia es un gran evento en la vida del Clan, y el generador sigue la misma lógica.</p>
+</article>
+<article class="info-card">
+<h3>Rasgos Visuales y Espíritu del Clan</h3>
+<p>Cada gato recibe un <strong>color de pelaje aleatorio</strong>, <strong>tono de ojos</strong> y <strong>patrón de pelaje</strong> — rayado, manchado o sólido. Esa combinación le da a tu personaje un aspecto que puedes visualizar de inmediato, ya sea que estés dibujando fanart o escribiendo una escena. Haz clic en el botón de nuevo y obtendrás un gato totalmente diferente.</p>
+<p>Los pelajes a menudo sugieren los puntos fuertes de un gato: los carey oscuros se mueven entre las sombras, los rojo-anaranjados brillantes lideran la carga.</p>
+</article>
+<article class="info-card">
+<h3>Para Qué Puedes Usarlo</h3>
+<ul>
+<li>Fanfiction e historias originales de Clan</li>
+<li>Personajes para RPG y juegos de rol en foros</li>
+<li>Referencias de arte o tarjetas de guerrero personalizadas</li>
+<li>Poner un nombre con espíritu guerrero a un gato real</li>
+</ul>
+<p>Hecho para fans de <strong>Warriors de Erin Hunter</strong>.</p>
+<div class="internal-links">
+<a href="#naming-guide">Guía de Denominación</a>
+<a href="#clan-culture">Explora la Cultura del Clan</a>
+<a href="#faq">Lee las Preguntas Frecuentes</a>
+</div>
+</article>
+</section>
+
+<section id="naming-guide" class="anchor-section">
+<h2>Sacando el Máximo Provecho de Este Generador de Nombres</h2>
+<p>Haz clic en <strong>Generar Nuevos Gatos</strong> y obtendrás ocho nombres de inmediato — uno por rango: Guerrero, Gato de Medicina, Aprendiz, Anciano, Cachorro, Líder, Solitario y Reina. Cada pieza (prefijo, sufijo, color de pelaje, patrón, tono de ojos) se lanza independientemente, así que las combinaciones se acumulan rápido. Haz clic tantas veces como quieras; no verás el mismo gato dos veces.</p>
+<p>Debajo de cada imagen hay una breve descripción que sirve también como texto alternativo, para que los lectores de pantalla y los motores de búsqueda puedan captar la apariencia del gato.</p>
+<h3>Entendiendo las Tradiciones de Denominación de los Clanes</h3>
+<p>Los gatos de Clan ganan sus nombres a través de ceremonia. Los cachorros comienzan con <em>-cachorro</em>, los aprendices llevan <em>-garra</em>, y los guerreros reciben un sufijo que refleja quiénes son. Los gatos de medicina tienden a obtener terminaciones místicas como <em>-estanque</em> o <em>-luna</em>. Los ancianos mantienen el nombre que ganan a lo largo de las estaciones de servicio.</p>
+</section>
+
+<section id="clan-culture" class="anchor-section">
+<h2>Por Qué Importan los Nombres Auténticos de Gatos Guerreros</h2>
+<p>Muchos herramientas de nombres aleatorios escupen palabras modernas o que suenan humanas que se sienten mal en el bosque. Este Generador de Nombres de Gatos Guerreros se adhiere a la <strong>estructura de denominación canónica</strong> — prefijos como <em>Zarza, Helecho, Hollín, Malla, Acebo</em> y sufijos como <em>corazón, raya, pluma, salto, sombra</em> vienen directamente de los libros. Cada nombre suena como si perteneciera a TruenoClan, RíoClan o VientoClan.</p>
+<p>Ningún objeto moderno, ninguna palabra inventada — solo términos arraigados en la naturaleza, tal como los Clanes nombrarían las cosas.</p>
+<h3>Categorías de Nombres de Clan</h3>
+<h4>Nombres de TruenoClan</h4>
+<p>Los gatos de TruenoClan llevan nombres vinculados al fuego, relámpago y criaturas del bosque — piensa en <em>Estrella de Fuego, Vuelo de Ardilla, Garra de Zarza</em>.</p>
+<h4>Nombres de RíoClan</h4>
+<p>Los nombres de RíoClan fluyen con imágenes de agua: <em>Estrella de Niebla, Estrella de Leopardo, Bigote de Junco</em>.</p>
+<h4>Nombres de SombraClan</h4>
+<p>Los guerreros de SombraClan obtienen nombres que sugieren oscuridad y sigilo: <em>Estrella Negra, Estrella de Tigre, Pelaje Rojizo</em>.</p>
+<h4>Nombres de VientoClan</h4>
+<p>Los nombres de VientoClan hacen eco de la landa abierta y la velocidad: <em>Gran Estrella, Pluma de Cuervo, Pelaje de Brisa</em>.</p>
+</section>
+
+<section class="faq-section anchor-section" id="faq">
+<h2>Preguntas Frecuentes</h2>
+<div class="faq-item">
+<button class="faq-toggle" aria-expanded="false" aria-controls="faq1">
+<span>¿Cómo funciona este generador de nombres?</span>
+<span class="faq-icon">+</span>
+</button>
+<div class="faq-answer" id="faq1" style="display:none">
+<p>Este Generador de Nombres de Gatos Guerreros combina prefijos y sufijos auténticos de los libros de Warriors para crear nombres fieles al universo. Cada clic produce ocho gatos con colores de pelaje, colores de ojos y patrones de pelaje aleatorios. Toma de más de 40 prefijos naturales y más de 30 sufijos relacionados con habilidades, rasgos y tradiciones del Clan.</p>
+</div>
+</div>
+<div class="faq-item">
+<button class="faq-toggle" aria-expanded="false" aria-controls="faq2">
+<span>¿Qué hace que un nombre de gato guerrero sea auténtico?</span>
+<span class="faq-icon">+</span>
+</button>
+<div class="faq-answer" id="faq2" style="display:none">
+<p>Un nombre auténtico sigue las reglas de los libros: un prefijo que describe la apariencia o naturaleza (Zarza, Escarcha, Ámbar) más un sufijo que marca rango o habilidad (-garra, -corazón, -garra para aprendices). Palabras modernas, objetos hechos por humanos y conceptos abstractos no pertenecen a la denominación de los Clanes.</p>
+</div>
+</div>
+<div class="faq-item">
+<button class="faq-toggle" aria-expanded="false" aria-controls="faq3">
+<span>¿Puedo usar estos nombres para fanfiction o juegos de rol?</span>
+<span class="faq-icon">+</span>
+</button>
+<div class="faq-answer" id="faq3" style="display:none">
+<p>Absolutamente. Cada nombre es una combinación original del algoritmo — libre para usar en fanfiction, foros de RPG, arte o creación de personajes. Están diseñados para sonar naturales en cualquier entorno de Clan.</p>
+</div>
+</div>
+<div class="faq-item">
+<button class="faq-toggle" aria-expanded="false" aria-controls="faq4">
+<span>¿Cuáles son los diferentes rangos en los nombres de gatos guerreros?</span>
+<span class="faq-icon">+</span>
+</button>
+<div class="faq-answer" id="faq4" style="display:none">
+<p>Los guerreros ganan su nombre completo en una ceremonia del Clan, intercambiando el sufijo -garra de aprendiz por uno que corresponda a su personalidad. Los gatos de medicina tienden a recibir sufijos místicos como -estanque o -luna. Los ancianos mantienen el nombre que ganan, y los cachorros llevan -cachorro hasta que son lo suficientemente mayores para comenzar el entrenamiento.</p>
+</div>
+</div>
+<div class="faq-item">
+<button class="faq-toggle" aria-expanded="false" aria-controls="faq5">
+<span>¿Por qué cada gato viene con un visual?</span>
+<span class="faq-icon">+</span>
+</button>
+<div class="faq-answer" id="faq5" style="display:none">
+<p>El visual te permite visualizar el personaje de inmediato. Cada gato recibe un color de pelaje, tono de ojos y patrón aleatorios — rayado, manchado o sólido. Útil para artistas, escritores y jugadores de rol que quieren un concepto de personaje completo en segundos.</p>
+</div>
+</div>
+</section>
+
+<section class="languages-section">
+<h2 class="languages-title">Otros Idiomas</h2>
+<div class="languages-grid">
+<a href="../" class="lang-card" title="English">
+<span class="lang-flag">🇬🇧</span>
+English
+</a>
+<a href="../de/" class="lang-card" title="Deutsch">
+<span class="lang-flag">🇩🇪</span>
+Deutsch
+</a>
+<a href="../fr/" class="lang-card" title="Français">
+<span class="lang-flag">🇫🇷</span>
+Français
+</a>
+<a href="../it/" class="lang-card" title="Italiano">
+<span class="lang-flag">🇮🇹</span>
+Italiano
+</a>
+<a href="../pt/" class="lang-card" title="Português">
+<span class="lang-flag">🇵🇹</span>
+Português
+</a>
+<a href="../ru/" class="lang-card" title="Русский">
+<span class="lang-flag">🇷🇺</span>
+Русский
+</a>
+</div>
+</section>
+<noscript>
+<p>Este generador de nombres requiere JavaScript para funcionar. Por favor, habilita JavaScript en tu navegador para generar nombres únicos de gatos del Clan con visuales correspondientes para TruenoClan, RíoClan, SombraClan, VientoClan y más.</p>
+</noscript>
+</main>
+<footer>
+<p>Generador de Nombres de Gatos Guerreros — herramienta de fan, no afiliada con HarperCollins. Todos los nombres generados son combinaciones originales.</p>
+<nav class="internal-links" aria-label="Navegación del pie de página">
+<a href="./">Prueba el Generador de Nombres</a>
+<a href="about.html">Sobre Nosotros</a>
+<a href="contact.html">Contacto</a>
+<a href="privacy.html">Política de Privacidad</a>
+<a href="terms.html">Términos de Servicio</a>
+<a href="cookies.html">Política de Cookies</a>
+<a href="disclaimer.html">Descargo de Responsabilidad</a>
+</nav>
+</footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
