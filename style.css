@@ -81,3 +81,21 @@ hr{margin:1.2rem 0;border:none;border-top:1px solid #eedbc8}
 .lang-card{background:#fff;border:1px solid #d8c59f;border-radius:.6rem;padding:.5rem .8rem;text-decoration:none;color:#2c241a;font-weight:500;transition:border-color .2s,background .2s;display:flex;align-items:center;gap:.4rem;font-size:.9rem}
 .lang-card:hover{background:#fef9f0;border-color:#e6b422}
 .lang-flag{font-size:1.1rem}
+.clan-cards-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1.2rem;margin-top:1rem}
+@media(max-width:700px){
+.clan-cards-grid{grid-template-columns:1fr}
+}
+.clan-card{background:#fff;border-radius:1.25rem;padding:1.2rem 1.4rem;border:1px solid #f0e2d0;box-shadow:0 8px 16px rgba(0,0,0,.04);transition:transform .2s,box-shadow .2s}
+.clan-card:hover{transform:translateY(-3px);box-shadow:0 12px 24px rgba(0,0,0,.08)}
+.clan-card-header{margin-bottom:.5rem}
+.clan-card-header h4{margin:0;font-size:1.05rem}
+.clan-card-header h4 a{text-decoration:none;color:#2c3e2f}
+.clan-card-header h4 a:hover{color:#b45a35}
+.clan-card p{font-size:.9rem;color:#5a4a3a;margin-bottom:.7rem}
+.clan-card.thunder{border-top:4px solid #e6b422}
+.clan-card.river{border-top:4px solid #4fc3f7}
+.clan-card.shadow{border-top:4px solid #5a3e2b}
+.clan-card.wind{border-top:4px solid #81c784}
+.name-chips{display:flex;flex-wrap:wrap;gap:.5rem}
+.name-chip{display:inline-block;background:#fef9f0;border:1px solid #e6d5c0;border-radius:50px;padding:.35rem .85rem;font-size:.82rem;font-weight:600;color:#5a3e2b;text-decoration:none;transition:background .2s,border-color .2s,color .2s}
+.name-chip:hover{background:#2c3e2f;border-color:#2c3e2f;color:#fff}
