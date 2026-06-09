@@ -1,0 +1,11 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "version": 2,
+  "redirects": [
+    {
+      "source": "/:clan-warrior-cats/:path*",
+      "destination": "/:clan/:path*",
+      "statusCode": 301
+    }
+  ]
+}
