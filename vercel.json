@@ -3,6 +3,16 @@
   "version": 2,
   "redirects": [
     {
+      "source": "/:clan-warrior-cats",
+      "destination": "/:clan",
+      "statusCode": 301
+    },
+    {
+      "source": "/:clan-warrior-cats/",
+      "destination": "/:clan/",
+      "statusCode": 301
+    },
+    {
       "source": "/:clan-warrior-cats/:path*",
       "destination": "/:clan/:path*",
       "statusCode": 301
