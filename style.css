@@ -96,6 +96,8 @@ hr{margin:1.2rem 0;border:none;border-top:1px solid #eedbc8}
 .clan-card.river{border-top:4px solid #4fc3f7}
 .clan-card.shadow{border-top:4px solid #5a3e2b}
 .clan-card.wind{border-top:4px solid #81c784}
+.clan-card.sky{border-top:4px solid #b39ddb}
+.clan-card.kittypet{border-top:4px solid #b45a35}
 .name-chips{display:flex;flex-wrap:wrap;gap:.5rem}
 .name-chip{display:inline-block;background:#fef9f0;border:1px solid #e6d5c0;border-radius:50px;padding:.35rem .85rem;font-size:.82rem;font-weight:600;color:#5a3e2b;text-decoration:none;transition:background .2s,border-color .2s,color .2s}
 .name-chip:hover{background:#2c3e2f;border-color:#2c3e2f;color:#fff}
