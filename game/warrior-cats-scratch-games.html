@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Warrior Cats Scratch Games - Free Clan Cat Scratch Card Game</title>
+<meta name="description" content="Play free Warrior Cats scratch games right in your browser. Scratch clan-themed cards to reveal cat names, ranks, prophecies, and hidden rewards from the Warriors series.">
+<meta name="keywords" content="warrior cats scratch games, warrior cats scratch card, clan cat scratch game, warriors scratch off, free scratch game, warrior cats browser game, fan game Warriors">
+<meta name="author" content="Warrior Cats Name Generator">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="theme-color" content="#2c3e2f">
+<link rel="canonical" href="https://warriorcatsnamegenerator.net/game/warrior-cats-scratch-games.html">
+<link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+<link rel="alternate" hreflang="en" href="https://warriorcatsnamegenerator.net/game/warrior-cats-scratch-games.html">
+<link rel="alternate" hreflang="x-default" href="https://warriorcatsnamegenerator.net/game/warrior-cats-scratch-games.html">
+<link rel="stylesheet" href="warrior-cats-scratch-games.css">
+<meta property="og:title" content="Warrior Cats Scratch Games - Free Clan Cat Scratch Card Game">
+<meta property="og:description" content="Scratch clan-themed cards to reveal cat names, ranks, prophecies, and hidden rewards from the Warriors series. Free, no signup, runs in your browser.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://warriorcatsnamegenerator.net/game/warrior-cats-scratch-games.html">
+<meta property="og:image" content="https://warriorcatsnamegenerator.net/og-image.jpg">
+<meta property="og:image:alt" content="Warrior Cats scratch games page showing three clan-themed scratch cards ready to play">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Warrior Cats Scratch Games - Free Clan Cat Scratch Card Game">
+<meta name="twitter:description" content="Scratch clan-themed cards to reveal cat names, ranks, prophecies, and hidden rewards from the Warriors series. Free, no signup, runs in your browser.">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[{"@type":"WebApplication","name":"Warrior Cats Scratch Games","description":"Free browser scratch card game for fans of Erin Hunter's Warriors series. Scratch clan-themed cards to reveal cat names, ranks, prophecies, and hidden rewards.","applicationCategory":"GameApplication","genre":"Scratch Card","operatingSystem":"Any","url":"https://warriorcatsnamegenerator.net/game/warrior-cats-scratch-games.html","browserRequirements":"Requires JavaScript and Canvas","creator":{"@type":"Organization","name":"Warrior Cats Name Generator"},"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://warriorcatsnamegenerator.net/"},{"@type":"ListItem","position":2,"name":"Warrior Cats Game","item":"https://warriorcatsnamegenerator.net/game/"},{"@type":"ListItem","position":3,"name":"Warrior Cats Scratch Games","item":"https://warriorcatsnamegenerator.net/game/warrior-cats-scratch-games.html"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are Warrior Cats scratch games?","acceptedAnswer":{"@type":"Answer","text":"They are free browser scratch cards themed around Erin Hunter's Warriors series. Each card hides nine squares filled with cat names, ranks, prophecies, prey, herbs, and other clan rewards that you reveal by scratching with your mouse or finger."}},{"@type":"Question","name":"Do I need to install anything to play?","acceptedAnswer":{"@type":"Answer","text":"No. The scratch games run in any modern browser using a canvas overlay. There is no download, no signup, and no payment at any point."}},{"@type":"Question","name":"How do I scratch a card?","acceptedAnswer":{"@type":"Answer","text":"Click and drag (or touch and drag on a phone) across the gray coating on a card. The hidden symbol or word underneath shows up wherever you scratch. Once about 60 percent of a card is cleared, it counts as fully revealed and the prize is yours."}},{"@type":"Question","name":"Can I get a new set of cards?","acceptedAnswer":{"@type":"Answer","text":"Yes. Hit the New Card Set button at the bottom of the play area and the game deals you a fresh batch of cards with new symbols, new prophecies, and a different mix of cats and items."}},{"@type":"Question","name":"Are the scratch games connected to a real-money prize?","acceptedAnswer":{"@type":"Answer","text":"No. This is a fan-made game for fun. There is no real cash, no sweepstakes, and no entry fee. The cards are themed around the books, and the rewards are in-game collectibles only."}}]}]}
+</script>
+</head>
+<body>
+<div class="container">
+<header>
+<nav><a href="../">Back to Home</a></nav>
+<h1>Warrior Cats Scratch Games<span class="subtitle">Scratch clan-themed cards to reveal cats, ranks, prophecies, and hidden rewards from the forest</span></h1>
+<div class="breadcrumb"><a href="../">Home</a> &rsaquo; <a href="./">Games</a> &rsaquo; Scratch Games</div>
+</header>
+<main>
+
+<div class="content-card">
+<div class="card-header"><span class="section-icon">&#x1F3AE;</span><h2>What you're getting into</h2></div>
+<p>The Warrior Cats scratch games are a small fan-made game I built on top of the same scratch-card idea you've probably seen a hundred times. Each ticket has nine squares, and each square is hiding something out of the books — a leader's name, a chunk of fresh-kill, a prophecy, or a cat you haven't crossed paths with yet. Click and drag across the silver with your mouse, the symbol shows up where you brush, and you keep going until the card hands you a prize.</p>
+<p>No downloads, no signup, no email. Open the page, scratch a card, see what you've got. The game quietly tracks what you've cleared, so you can come back tomorrow and try to finish the set without losing your place.</p>
+</div>
+
+<div class="content-card" id="play">
+<div class="card-header"><span class="section-icon">&#x1F4F0;</span><h2>Scratch a card</h2></div>
+<p class="play-hint">Click and drag (or touch and drag) across the silver coating. Get about 60 percent of a card cleared and the prize is yours. The buttons below deal a new set or wipe the current one.</p>
+<div class="card-row" id="cardRow"></div>
+<div class="card-controls">
+<button type="button" class="control-btn" id="newSetBtn">&#x1F0CF; New Card Set</button>
+<button type="button" class="control-btn ghost" id="revealAllBtn">&#x1F441; Reveal All</button>
+<button type="button" class="control-btn ghost" id="resetAllBtn">&#x1F504; Reset Coatings</button>
+</div>
+<div class="stats-row">
+<div class="stat-box"><span class="stat-num" id="cardsCleared">0</span><span class="stat-label">Cards cleared</span></div>
+<div class="stat-box"><span class="stat-num" id="symbolsFound">0</span><span class="stat-label">Symbols revealed</span></div>
+<div class="stat-box"><span class="stat-num" id="rarestFind">—</span><span class="stat-label">Rarest find</span></div>
+<div class="stat-box"><span class="stat-num" id="lastPrize">—</span><span class="stat-label">Last prize</span></div>
+</div>
+</div>
+
+<div class="content-card">
+<div class="card-header"><span class="section-icon">&#x1F4DA;</span><h2>What shows up under the coating</h2></div>
+<p>Every card in a set pulls from the same pool of Warriors-themed stuff. Some of it's a leader's name, some of it's a kit, some of it's a fat trout, and some of it's a line from a prophecy. The rarer the symbol, the less often it pops up, and that's the part that makes a clean scratch feel like an actual win.</p>
+<div class="reward-grid">
+<div class="reward-card">
+<h3>Leader names</h3>
+<p>Bramblestar, Firestar, Leafstar, Mistystar, Tallstar, Blackstar. Land one of these and the card counts as a leader find.</p>
+</div>
+<div class="reward-card">
+<h3>Apprentice names</h3>
+<p>Any cat with a -paw suffix. The books have plenty of them, and the deck does too, so don't act surprised when Bramblepaw shows up three cards in a row.</p>
+</div>
+<div class="reward-card">
+<h3>Medicine cat herbs</h3>
+<p>Juniper, chamomile, dock, cobwebs, goldenrod, marigold. Standard medicine-cat pantry, give or take what your apprentice is allowed to touch without supervision.</p>
+</div>
+<div class="reward-card">
+<h3>Fresh-kill catches</h3>
+<p>Mouse, vole, rabbit, squirrel, trout, pigeon. The fresh-kill pile's been light this season, but the cards are still paying out.</p>
+</div>
+<div class="reward-card">
+<h3>Prophecies</h3>
+<p>Lines pulled from StarClan visions. These are the rarest symbol in the deck, so don't go betting your next chapter on pulling one.</p>
+</div>
+<div class="reward-card">
+<h3>Clan tokens</h3>
+<p>Thunder, river, shadow, wind, sky. The five clan sigils round out the pool and tell you which forest the card belongs to.</p>
+</div>
+</div>
+</div>
+
+<div class="content-card">
+<div class="card-header"><span class="section-icon">&#x2728;</span><h2>How to play</h2></div>
+<ol class="how-to">
+<li><strong>Deal a card.</strong> The page drops you in with three cards in front of you. Hit the New Card Set button when you want a different batch.</li>
+<li><strong>Scratch the silver coating.</strong> Press the mouse button — or your finger, if you're on a phone — and drag across a square. The hidden symbol shows up wherever the silver comes off.</li>
+<li><strong>Clear about 60 percent of a card.</strong> The game keeps an eye on how much silver you've removed. Cross that 60-percent line and the card locks in your prize and updates your stats.</li>
+<li><strong>Keep going or deal again.</strong> Finish the set, or hit New Card Set whenever you want a different mix of rewards.</li>
+</ol>
+<p>If you're on a trackpad or a phone, scratch in short strokes instead of long ones — the canvas tracks better that way, and you'll see the symbols pop in clean.</p>
+</div>
+
+<div class="content-card">
+<div class="card-header"><span class="section-icon">&#x1F3B0;</span><h2>Why I keep scratching</h2></div>
+<p>The scratch games sit in a different spot than the rest of the hub. The Create a Cat builder's more of a sit-down thing, and the name generator takes about a minute. The scratch games are the part of the site where I close the tab ten minutes later and go, "oh, I just did nine cards." A short set, themed rewards, scratching that feels fine on a trackpad or a phone. No save file, no account — just hit New Card Set when you're done with the first batch. I built the scratch games in the same spirit as the rest of the site — simple, quiet, and free. If you've used a paper scratch ticket at a gas station, you already know the rhythm. The clan's just the costume. The scratching's what hooks you, and the rewards are a fun surprise. Sit with it for a couple minutes and see what you pull.</p>
+</div>
+
+<div class="content-card">
+<div class="card-header"><span class="section-icon">&#x1F4AC;</span><h2>Who'll actually like this</h2></div>
+<p>You don't need to be a deep-in-the-fandom Warriors reader to enjoy a scratch card. The game works fine for anyone who likes a quick surprise, and the clan theme is just paint over a mechanic you probably already know.</p>
+<ul class="audience-list">
+<li><strong>Warriors readers who want a five-minute break.</strong> Scratch a card between chapters. If you pull Firestar, the next scene basically writes itself.</li>
+<li><strong>New fans checking the series out.</strong> Scratch a few cards and you'll pick up the flavor of the clans fast — the names and items follow the books, so it's a low-effort way in.</li>
+<li><strong>Fanfic writers hunting for a hook.</strong> A prophecy on a scratch card is a decent place to start a side plot. A leader name, a missing kit, a half-remembered herb — pick one and run with it.</li>
+<li><strong>Anyone with a phone and a minute.</strong> The game works on touchscreens. Drag a finger across the card, the silver comes off, the prize pops up.</li>
+</ul>
+</div>
+
+<div class="faq-section" aria-label="Frequently asked questions about Warrior Cats scratch games">
+<div class="faq-item">
+<button class="faq-toggle" aria-expanded="true" aria-controls="faq1"><span>What are Warrior Cats scratch games?</span><span class="faq-icon">&#x2212;</span></button>
+<div class="faq-answer" id="faq1" style="display:block"><p>Free browser scratch cards with a Warriors theme. Each card hides nine squares — cat names, ranks, prophecies, prey, herbs, that kind of thing — and you scratch the silver off with your mouse or finger to see what's underneath.</p></div>
+</div>
+<div class="faq-item">
+<button class="faq-toggle" aria-expanded="false" aria-controls="faq2"><span>Do I need to install anything to play?</span><span class="faq-icon">+</span></button>
+<div class="faq-answer" id="faq2" style="display:none"><p>Nope. The game runs in any modern browser. Nothing to download, no signup, no payment, no email — just the page.</p></div>
+</div>
+<div class="faq-item">
+<button class="faq-toggle" aria-expanded="false" aria-controls="faq3"><span>How do I scratch a card?</span><span class="faq-icon">+</span></button>
+<div class="faq-answer" id="faq3" style="display:none"><p>Click and drag, or tap and drag if you're on a phone. The hidden symbol shows up wherever you brush. Get about 60 percent of the silver off and the card locks in as revealed.</p></div>
+</div>
+<div class="faq-item">
+<button class="faq-toggle" aria-expanded="false" aria-controls="faq4"><span>Can I get a new set of cards?</span><span class="faq-icon">+</span></button>
+<div class="faq-answer" id="faq4" style="display:none"><p>Yep — the New Card Set button sits right under the cards. Hit it and you'll get a fresh batch with new symbols and a different mix of cats and items.</p></div>
+</div>
+<div class="faq-item">
+<button class="faq-toggle" aria-expanded="false" aria-controls="faq5"><span>Are the scratch games connected to a real-money prize?</span><span class="faq-icon">+</span></button>
+<div class="faq-answer" id="faq5" style="display:none"><p>Not a chance. It's a fan-made game for fun — no real cash, no sweepstakes, no entry fee. The cards are themed around the books and the rewards are just in-game collectibles.</p></div>
+</div>
+</div>
+
+</main>
+<footer>
+<p>&copy; 2026 Warrior Cats Name Generator. Fan-made tool, not affiliated with Erin Hunter or HarperCollins.</p>
+<p class="internal-links"><a href="../">Home</a> &middot; <a href="./">All Games</a> &middot; <a href="warrior-cats-create-a-cat.html">Create a Cat</a> &middot; <a href="../about/">About</a> &middot; <a href="../contact/">Contact</a> &middot; <a href="../privacy/">Privacy</a> &middot; <a href="../terms/">Terms</a></p>
+</footer>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="warrior-cats-scratch-games.js"></script>
+</body>
+</html>
