@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Warrior Cats Game - Free Browser Games for Clan Cat Fans</title>
+<meta name="description" content="A small hub of free Warrior Cats game tiles you can play in your browser. Start with Create a Cat, with more clan-themed games on the way.">
+<meta name="keywords" content="warrior cats game, warrior cats games, warrior cats create a cat, clan cat game, free warrior cats game, browser game, fan game Warriors">
+<meta name="author" content="Warrior Cats Name Generator">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="theme-color" content="#2c3e2f">
+<link rel="canonical" href="https://warriorcatsnamegenerator.net/game/">
+<link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+<link rel="alternate" hreflang="en" href="https://warriorcatsnamegenerator.net/game/">
+<link rel="alternate" hreflang="x-default" href="https://warriorcatsnamegenerator.net/game/">
+<link rel="stylesheet" href="warrior-cats-create-a-cat.css">
+<meta property="og:title" content="Warrior Cats Game - Free Browser Games for Clan Cat Fans">
+<meta property="og:description" content="A small hub of free Warrior Cats game tiles you can play in your browser. Start with Create a Cat, with more clan-themed games on the way.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://warriorcatsnamegenerator.net/game/">
+<meta property="og:image" content="https://warriorcatsnamegenerator.net/og-image.jpg">
+<meta property="og:image:alt" content="Warrior Cats game hub tile for the Create a Cat character builder">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Warrior Cats Game - Free Browser Games for Clan Cat Fans">
+<meta name="twitter:description" content="A small hub of free Warrior Cats game tiles you can play in your browser. Start with Create a Cat, with more clan-themed games on the way.">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[{"@type":"CollectionPage","name":"Warrior Cats Game Hub","description":"A small hub of free browser games for fans of Erin Hunter's Warriors series.","url":"https://warriorcatsnamegenerator.net/game/","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Warrior Cats Name Generator","url":"https://warriorcatsnamegenerator.net/"},"creator":{"@type":"Organization","name":"Warrior Cats Name Generator","url":"https://warriorcatsnamegenerator.net/"},"mainEntity":{"@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"Warrior Cats Create a Cat","url":"https://warriorcatsnamegenerator.net/game/warrior-cats-create-a-cat.html","description":"Build a custom clan cat from scratch - pick a clan, choose a rank, set the fur and eyes, and save a character card."}]}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://warriorcatsnamegenerator.net/"},{"@type":"ListItem","position":2,"name":"Warrior Cats Game","item":"https://warriorcatsnamegenerator.net/game/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the Warrior Cats game hub?","acceptedAnswer":{"@type":"Answer","text":"It is a small page of free browser games for fans of Erin Hunter's Warriors series. Each tile runs in a tab with nothing to install. Create a Cat is live, and new tiles get added as more games finish testing."}},{"@type":"Question","name":"Do I need to read the books to play?","acceptedAnswer":{"@type":"Answer","text":"No. The games use the books' naming rules, ranks, and clans, so longtime fans will feel at home. Newcomers can play too, and the games are a fine way to see if the series is for you."}},{"@type":"Question","name":"Are the games on the hub free?","acceptedAnswer":{"@type":"Answer","text":"Yes. You will not hit a paywall, an account prompt, or a download button on any tile here. Open the game, play, close the tab."}},{"@type":"Question","name":"Will you add more games?","acceptedAnswer":{"@type":"Answer","text":"Yes. New tiles appear on the page as new games are finished and tested. The page is small now, and I would rather keep it that way than ship a game that isn't ready."}}]}]}
+</script>
+<style>
+.game-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1rem;margin-top:1rem}
+@media(max-width:640px){.game-grid{grid-template-columns:1fr}}
+.game-tile{display:flex;flex-direction:column;align-items:center;text-align:center;background:#fff;border:1.5px solid #f0e2d0;border-radius:1.25rem;padding:1.4rem 1.2rem;text-decoration:none;color:inherit;box-shadow:0 6px 14px rgba(0,0,0,.04);transition:transform .2s,box-shadow .2s,border-color .2s;min-height:230px}
+.game-tile:hover{transform:translateY(-3px);border-color:#e6b422;box-shadow:0 10px 22px rgba(0,0,0,.08)}
+.game-tile-icon{width:64px;height:64px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.9rem;background:linear-gradient(135deg,#2c3e2f,#5a3e2b);color:#f7d98c;margin-bottom:.7rem;box-shadow:0 4px 10px rgba(0,0,0,.12)}
+.game-tile-icon.soon{background:linear-gradient(135deg,#d8c59f,#bfa678);color:#5a3e2b}
+.game-tile-name{font-size:1.05rem;font-weight:700;color:#2c3e2f;margin:.2rem 0 .4rem;line-height:1.3}
+.game-tile-tag{display:inline-block;font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:.5px;padding:.18rem .6rem;border-radius:20px;background:#2c3e2f;color:#f7d98c;margin-bottom:.5rem}
+.game-tile-tag.soon{background:#eedbc8;color:#5a3e2b}
+.game-tile-desc{font-size:.85rem;color:#5a4a3a;line-height:1.45;max-width:32ch}
+.audience-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;margin-top:.8rem}
+.audience-card{background:#fff;border:1px solid #f0e2d0;border-radius:1rem;padding:1rem 1.1rem}
+.audience-card h3{margin:0 0 .3rem;font-size:1rem;color:#2c3e2f}
+.audience-card p{margin:0;font-size:.88rem;color:#5a4a3a;line-height:1.5}
+</style>
+</head>
+<body>
+<div class="container">
+<header>
+<nav><a href="../">Back to Home</a></nav>
+<h1>Warrior Cats Game<span class="subtitle">Free browser games for fans of Erin Hunter's Warriors series. No installs, no signups, just tap and play.</span></h1>
+<div class="breadcrumb"><a href="../">Home</a> &rsaquo; Games</div>
+</header>
+<main>
+
+<div class="content-card">
+<div class="card-header">
+<span class="section-icon">&#x1F3AE;</span>
+<h2>Pick a Warrior Cats game and start playing</h2>
+</div>
+<p>You've landed on the Warrior Cats game hub. I keep this page small on purpose: a short list of free browser games for fans of the books, each one running in a single tab. There's nothing to download, no account to set up, and no popups sitting on top of the play button. The first game is live. The next ones will land here as soon as they're ready to leave testing.</p>
+</div>
+
+<div class="content-card">
+<div class="card-header">
+<span class="section-icon">&#x1F3AE;</span>
+<h2>Games on the hub right now</h2>
+</div>
+<div class="game-grid">
+<a class="game-tile" href="warrior-cats-create-a-cat.html" aria-label="Play the Warrior Cats Create a Cat game">
+<span class="game-tile-icon" aria-hidden="true">&#x1F431;</span>
+<span class="game-tile-tag">Play Now</span>
+<span class="game-tile-name">Warrior Cats Create a Cat</span>
+<span class="game-tile-desc">A character builder for any cat you've been quietly imagining. Pick a clan, choose a rank, set the fur and eyes, and save a card. It's the kind of quick game you can finish in five minutes and still have something worth sharing.</span>
+</a>
+<div class="game-tile" role="img" aria-label="Second game slot, coming soon">
+<span class="game-tile-icon soon" aria-hidden="true">&#x1F320;</span>
+<span class="game-tile-tag soon">Coming Soon</span>
+<span class="game-tile-name">More games on the way</span>
+<span class="game-tile-desc">A second clan game is in the works. Drop back in later — the next tile will land here the moment it's ready.</span>
+</div>
+</div>
+</div>
+
+<div class="content-card">
+<div class="card-header">
+<span class="section-icon">&#x1F4DA;</span>
+<h2>Who the Warrior Cats game hub is built for</h2>
+</div>
+<p>I built the Warrior Cats game hub for anyone who likes the world Erin Hunter made. You don't have to have read every arc, you don't have to be deep in the fandom, and you don't have to play for hours. The point is simple: drop in, click a tile, and have a good ten minutes.</p>
+<div class="audience-list">
+<div class="audience-card">
+<h3>Lifelong Warriors readers</h3>
+<p>You've followed the series from <em>Into the Wild</em> all the way to whatever arc is current this year. The names, ranks, and clan rules in these games follow the books, so a Bramblepaw you roll here could walk into a ThunderClan meeting without anyone raising an eyebrow.</p>
+</div>
+<div class="audience-card">
+<h3>New fans, first book in</h3>
+<p>You can still have fun without knowing the full canon. Open Create a Cat, try a clan, see what name rolls out, and decide if the series is your kind of thing. The game will hold your hand through the rank and pattern choices, so you won't feel lost.</p>
+</div>
+<div class="audience-card">
+<h3>Fanfic writers and roleplayers</h3>
+<p>When you need a side character for chapter four and don't want to spend 40 minutes inventing one, a quick round will hand you a name, a look, and a rank you can paste straight into your notes. I've used it to break a writing block more times than I want to admit.</p>
+</div>
+<div class="audience-card">
+<h3>Artists hunting for a reference</h3>
+<p>Spin a round, lock in the fur and eye colors that match the cat in your head, and screenshot the card. It's a fast shortcut to a usable visual reference, and the small portrait on the card is just detailed enough to keep you honest on the anatomy later.</p>
+</div>
+<div class="audience-card">
+<h3>Parents and teachers</h3>
+<p>The games are free, kid-safe, and run in any modern browser. They're a quiet option for a reading corner, a rainy afternoon, or the last ten minutes of class when the lesson is over but the bell hasn't rung yet.</p>
+</div>
+<div class="audience-card">
+<h3>Anyone with five minutes to kill</h3>
+<p>Sometimes the mood is right for one round and a slightly silly name, like a ginger loner called Pinecone. That's reason enough to click. No achievement to chase, no streak to maintain.</p>
+</div>
+</div>
+</div>
+
+<div class="content-card">
+<div class="card-header">
+<span class="section-icon">&#x2728;</span>
+<h2>How the hub works</h2>
+</div>
+<p>The page stays small on purpose. I add a new tile when a game is finished, and I don't pad the hub with games that aren't ready yet. Each tile links straight to its game, so you go from landing here to playing in one click — no splash screens, no "subscribe to keep playing" wall, no email collection.</p>
+<p>If the games aren't enough, the <a href="../">main site</a> has a name generator, full pages on all five Clans (ThunderClan, RiverClan, ShadowClan, WindClan, SkyClan), and individual character profiles. They all link back to the hub, so you can drift between them however you like on a slow afternoon.</p>
+</div>
+
+<div class="faq-section" aria-label="Frequently asked questions about the Warrior Cats game hub">
+<div class="faq-item">
+<button class="faq-toggle" aria-expanded="true" aria-controls="hubfaq1"><span>What is the Warrior Cats game hub?</span><span class="faq-icon">&#x2212;</span></button>
+<div class="faq-answer" id="hubfaq1" style="display:block">
+<p>It's a small page of free browser games for fans of Erin Hunter's Warriors series. Each tile runs in a tab with nothing to install. Create a Cat is the first one up, and new tiles get added as more games finish testing.</p>
+</div>
+</div>
+<div class="faq-item">
+<button class="faq-toggle" aria-expanded="false" aria-controls="hubfaq2"><span>Do I need to read the books to play?</span><span class="faq-icon">+</span></button>
+<div class="faq-answer" id="hubfaq2" style="display:none">
+<p>No. The games use the books' naming rules, ranks, and clans, so longtime fans will feel at home. Newcomers can play too, and they're a fine way to see if the series is for you before you commit to a single book.</p>
+</div>
+</div>
+<div class="faq-item">
+<button class="faq-toggle" aria-expanded="false" aria-controls="hubfaq3"><span>Are the games on the hub free?</span><span class="faq-icon">+</span></button>
+<div class="faq-answer" id="hubfaq3" style="display:none">
+<p>Yes. You won't hit a paywall, an account prompt, or a download button on any tile here. Open the game, play, close the tab. That's the whole transaction.</p>
+</div>
+</div>
+<div class="faq-item">
+<button class="faq-toggle" aria-expanded="false" aria-controls="hubfaq4"><span>Will you add more games?</span><span class="faq-icon">+</span></button>
+<div class="faq-answer" id="hubfaq4" style="display:none">
+<p>Yes. New tiles appear on the page as new games are finished and tested. The page is small right now, and I'd rather keep it that way than ship a game that isn't ready.</p>
+</div>
+</div>
+</div>
+
+</main>
+<footer>
+<p>&copy; 2026 Warrior Cats Name Generator. Fan-made tool, not affiliated with Erin Hunter or HarperCollins.</p>
+<p><a href="../">Home</a> &middot; <a href="./">More Games</a> &middot; <a href="../about/">About</a> &middot; <a href="../contact/">Contact</a> &middot; <a href="../privacy/">Privacy</a> &middot; <a href="../terms/">Terms</a></p>
+</footer>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script>
+(function(){
+  document.querySelectorAll(".faq-toggle").forEach(function(btn){
+    btn.addEventListener("click",function(){
+      var id=btn.getAttribute("aria-controls");
+      var ans=document.getElementById(id);
+      var open=ans.style.display==="block";
+      ans.style.display=open?"none":"block";
+      btn.setAttribute("aria-expanded",open?"false":"true");
+      btn.querySelector(".faq-icon").textContent=open?"+":"\u2212";
+    });
+  });
+})();
+</script>
+</body>
+</html>
