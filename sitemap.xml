@@ -877,8 +877,26 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://warriorcatsnamegenerator.net/game/warrior-cats-scratch-games.html</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://warriorcatsnamegenerator.net/game/</loc>
     <lastmod>2026-06-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://warriorcatsnamegenerator.net/game/warrior-cats-quiz-what-cat-are-you.html</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://warriorcatsnamegenerator.net/game/warrior-cats-stickers.html</loc>
+    <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
