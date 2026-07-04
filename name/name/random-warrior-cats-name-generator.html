@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Random Warrior Cats Name Generator - Two Names at a Time</title>
+<meta name="description" content="Free random Warrior Cats name generator that produces two unique clan cat names per click. 50 names balanced across ThunderClan, RiverClan, ShadowClan, WindClan, and SkyClan.">
+<meta name="keywords" content="random warrior cats name generator, random warrior cat name, warrior cat name randomizer, two random names, clan cat name generator, warrior cats name tool, fan generator Warriors">
+<meta name="author" content="Warrior Cats Name Generator">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="theme-color" content="#2c3e2f">
+<link rel="canonical" href="https://warriorcatsnamegenerator.net/name/random-warrior-cats-name-generator.html">
+<link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+<link rel="alternate" hreflang="en" href="https://warriorcatsnamegenerator.net/name/random-warrior-cats-name-generator.html">
+<link rel="alternate" hreflang="x-default" href="https://warriorcatsnamegenerator.net/name/random-warrior-cats-name-generator.html">
+<link rel="stylesheet" href="css/random-warrior-cats-name-generator.css">
+<meta property="og:title" content="Random Warrior Cats Name Generator - Two Names at a Time">
+<meta property="og:description" content="Free random Warrior Cats name generator. Two clan cat names per click, balanced across five clans.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://warriorcatsnamegenerator.net/name/random-warrior-cats-name-generator.html">
+<meta property="og:image" content="https://warriorcatsnamegenerator.net/og-image.jpg">
+<meta property="og:image:alt" content="Random Warrior Cats name generator showing two clan cat names side by side">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Random Warrior Cats Name Generator - Two Names at a Time">
+<meta name="twitter:description" content="Click once. Get two clan cat names. Free, no signup.">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[{"@type":"WebApplication","name":"Random Warrior Cats Name Generator","description":"Free browser tool that generates two random clan cat names per click from a pool of 50 names balanced across the five clans.","applicationCategory":"UtilityApplication","operatingSystem":"Any","browserRequirements":"Requires JavaScript","url":"https://warriorcatsnamegenerator.net/name/random-warrior-cats-name-generator.html","creator":{"@type":"Organization","name":"Warrior Cats Name Generator","url":"https://warriorcatsnamegenerator.net/"},"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://warriorcatsnamegenerator.net/"},{"@type":"ListItem","position":2,"name":"Random Warrior Cats Name Generator","item":"https://warriorcatsnamegenerator.net/name/random-warrior-cats-name-generator.html"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How does the random warrior cats name generator work?","acceptedAnswer":{"@type":"Answer","text":"Press the Generate button. The tool pulls two names from a pool of 50, making sure both come from different clans. Each name combines a nature prefix and a rank-style suffix, which matches the format used in Erin Hunter's books."}},{"@type":"Question","name":"Why does the generator give me two names?","acceptedAnswer":{"@type":"Answer","text":"Two names fit a common Warriors use case: comparing options for a fanfic character, pairing a mentor and an apprentice, or running a name duel between clans."}},{"@type":"Question","name":"Are the 50 names balanced across clans?","acceptedAnswer":{"@type":"Answer","text":"Yes. The pool holds 10 names per clan, 5 clans, 50 total. The generator picks one from each of two different clans per click, so you get clan variety every round."}},{"@type":"Question","name":"Can I use these names in my fanfiction?","acceptedAnswer":{"@type":"Answer","text":"Yes. The names follow the books' prefix-suffix pattern but are not lifted from canon characters. Fans use them for OCs, side characters, and one-off cameos."}},{"@type":"Question","name":"Is the generator free?","acceptedAnswer":{"@type":"Answer","text":"Free, no signup, no email, no daily limit. Open the page and click as many times as you want."}}]}]}
+</script>
+</head>
+<body>
+<div class="container">
+<header>
+<nav>
+<a href="../">Back to Home</a>
+<a href="../clan/">Clan Name Generator</a>
+<a href="warrior-cat-name-generator-male.html">Male Name Generator</a>
+<a href="warrior-cats-leader-name-generator.html">Leader Name Generator</a>
+</nav>
+<h1>Random Warrior Cats Name Generator<span class="subtitle">Two clan cat names per click, drawn from a pool of 50 names distributed across ThunderClan, RiverClan, ShadowClan, WindClan, and SkyClan</span></h1>
+<div class="breadcrumb"><a href="../">Home</a> &rsaquo; Random Warrior Cats Name Generator</div>
+</header>
+<main>
+
+<div class="content-card">
+<div class="card-header">
+<span class="section-icon">&#x1F3B2;</span>
+<h2>Roll two clan cat names</h2>
+</div>
+<p>The <strong>random Warrior Cats name generator</strong> produces two names per click, each drawn from a different clan. The pool holds 50 names with 10 reserved for each clan, ensuring every round combines territories rather than concentrating on a single one.</p>
+<div class="result-row" id="resultRow">
+<div class="result-card" id="card1" aria-live="polite">
+<span class="card-label">Name one</span>
+<span class="card-name" id="name1">&nbsp;</span>
+<span class="card-clan" id="clan1">&nbsp;</span>
+</div>
+<div class="result-card" id="card2" aria-live="polite">
+<span class="card-label">Name two</span>
+<span class="card-name" id="name2">&nbsp;</span>
+<span class="card-clan" id="clan2">&nbsp;</span>
+</div>
+</div>
+<div class="action-row">
+<button type="button" class="generate-btn" id="generateBtn" aria-label="Generate two random warrior cat names">&#x1F3B2; Generate Two Names</button>
+</div>
+<p class="hint">The pool contains 50 names. Each click pulls two entries from distinct clans.</p>
+</div>
+
+<div class="content-card">
+<div class="card-header">
+<span class="section-icon">&#x1F4D6;</span>
+<h2>How the random Warrior Cats name generator works</h2>
+</div>
+<p>The generator follows Erin Hunter's naming conventions. Each name combines a <strong>prefix</strong> drawn from nature, terrain, or color with a <strong>suffix</strong> indicating rank or skill. Apprentices carry <em>-paw</em>, warriors receive traits such as <em>-claw</em> or <em>-heart</em>, and medicine cats favor <em>-pool</em> or <em>-whisper</em>. Leaders adopt <em>-star</em> upon receiving their nine lives.</p>
+<p>The tool stores 50 names distributed evenly across five clans. When the Generate button is pressed, it selects two entries at random, verifies the clans differ, and renders the results above. All processing occurs locally in the browser; no clicks transmit to a server and no history is retained.</p>
+<p>Duplicate detection prevents the same name from appearing consecutively. Each round produces two names from two distinct clans.</p>
+</div>
+
+<div class="content-card">
+<div class="card-header">
+<span class="section-icon">&#x1F3F7;</span>
+<h2>Clan flavor at a glance</h2>
+</div>
+<p>Each clan maintains a distinct naming tone. The random Warrior Cats name generator preserves these tones in the pool: ThunderClan names draw from fire and forest, RiverClan names reference water imagery, ShadowClan names remain dark and grounded, WindClan names reference the open moor, and SkyClan names carry sky and leaf cues.</p>
+<ul class="clan-list">
+<li><strong>ThunderClan:</strong> Forest, fire, lightning, and the open sky above the trees.</li>
+<li><strong>RiverClan:</strong> Streams, fish, smooth stones, and the silver flash of a leap.</li>
+<li><strong>ShadowClan:</strong> Marsh, pine, low cover, and the patience of a hunter at dusk.</li>
+<li><strong>WindClan:</strong> Open moor, gorse, and the legs that outrun anything in the forest.</li>
+<li><strong>SkyClan:</strong> High branches, cliffs, and the rare second chance a cat receives after exile.</li>
+</ul>
+<div class="internal-links" style="justify-content:flex-start;margin-top:1rem">
+<a href="../thunderclan/">Browse ThunderClan</a>
+<a href="../riverclan/">Browse RiverClan</a>
+<a href="../shadowclan/">Browse ShadowClan</a>
+<a href="../windclan/">Browse WindClan</a>
+<a href="../skyclan/">Browse SkyClan</a>
+</div>
+</div>
+
+<div class="content-card">
+<div class="card-header">
+<span class="section-icon">&#x1F4AC;</span>
+<h2>Who this random Warrior Cats name generator fits</h2>
+</div>
+<p>Two random names per click serve multiple Warriors applications. Fans conducting name duels between clans benefit from a side-by-side pair. Fanfiction writers drafting a chapter may need a mentor and apprentice, or paired kits with compatible names. Tabletop roleplayers and GMs can generate an NPC duo without naming an entire patrol.</p>
+<p>Newcomers to the series gain a quick reference for clan naming conventions. Each pair demonstrates how names from different clans contrast: ThunderClan beside RiverClan, SkyClan against ShadowClan, and so forth.</p>
+</div>
+
+<div class="faq-section" aria-label="Frequently asked questions about the random Warrior Cats name generator">
+<div class="faq-item">
+<button class="faq-toggle" aria-expanded="true" aria-controls="nfaq1"><span>How does the random Warrior Cats name generator work?</span><span class="faq-icon">&#x2212;</span></button>
+<div class="faq-answer" id="nfaq1" style="display:block"><p>Press the Generate button. The tool selects two names from a pool of 50, verifying both originate from different clans. Each name combines a nature prefix with a rank-style suffix, matching the format used in Erin Hunter's books.</p></div>
+</div>
+<div class="faq-item">
+<button class="faq-toggle" aria-expanded="false" aria-controls="nfaq2"><span>Why does the generator give me two names?</span><span class="faq-icon">+</span></button>
+<div class="faq-answer" id="nfaq2" style="display:none"><p>Two names address common Warriors use cases: comparing options for a fanfic character, pairing a mentor with an apprentice, or conducting a name duel between clans.</p></div>
+</div>
+<div class="faq-item">
+<button class="faq-toggle" aria-expanded="false" aria-controls="nfaq3"><span>Are the 50 names balanced across clans?</span><span class="faq-icon">+</span></button>
+<div class="faq-answer" id="nfaq3" style="display:none"><p>Yes. The pool contains 10 names per clan across 5 clans, totaling 50 names. The generator selects one from each of two different clans per click, ensuring clan variety in every round.</p></div>
+</div>
+<div class="faq-item">
+<button class="faq-toggle" aria-expanded="false" aria-controls="nfaq4"><span>Can I use these names in my fanfiction?</span><span class="faq-icon">+</span></button>
+<div class="faq-answer" id="nfaq4" style="display:none"><p>Yes. The names follow the books' prefix-suffix structure without copying canonical characters. Fans use them for original characters, supporting cast members, and brief cameos.</p></div>
+</div>
+<div class="faq-item">
+<button class="faq-toggle" aria-expanded="false" aria-controls="nfaq5"><span>Is the generator free?</span><span class="faq-icon">+</span></button>
+<div class="faq-answer" id="nfaq5" style="display:none"><p>The generator is free, requiring no signup, email, or daily limit. Open the page and click as many times as desired.</p></div>
+</div>
+<div class="faq-item">
+<button class="faq-toggle" aria-expanded="false" aria-controls="nfaq6"><span>Does the tool remember past results?</span><span class="faq-icon">+</span></button>
+<div class="faq-answer" id="nfaq6" style="display:none"><p>No. The random draw executes in your browser. Closing the tab clears the state, and no data is transmitted to a server.</p></div>
+</div>
+</div>
+
+</main>
+<footer>
+<p>&copy; 2026 Warrior Cats Name Generator. Fan-made tool, not affiliated with Erin Hunter or HarperCollins.</p>
+<p><a href="../">Home</a> &middot; <a href="../clan/">Clan Name Generator</a> &middot; <a href="warrior-cat-name-generator-male.html">Male Name Generator</a> &middot; <a href="warrior-cats-leader-name-generator.html">Leader Name Generator</a> &middot; <a href="../family/">Family Tree</a> &middot; <a href="../about/">About</a> &middot; <a href="../contact/">Contact</a> &middot; <a href="../privacy/">Privacy</a> &middot; <a href="../terms/">Terms</a></p>
+</footer>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="js/random-warrior-cats-name-generator.js" defer></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-M9RQWWJM19"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-M9RQWWJM19');
+</script>
+</body>
+</html>
